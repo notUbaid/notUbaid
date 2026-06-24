@@ -1,79 +1,124 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="700" height="600" viewBox="0 0 700 600">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="580" viewBox="0 0 800 580">
   <defs>
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap');
-      .term { font-family: 'JetBrains Mono', Consolas, Monaco, monospace; font-size: 15px; fill: #c9d1d9; }
-      .prompt { fill: #79c0ff; font-weight: bold; }
-      .cmd-text { fill: #c9d1d9; }
-      .path { fill: #a5d6ff; }
+      .term { font-family: 'Cascadia Code', 'JetBrains Mono', 'Fira Code', Consolas, monospace; font-size: 14px; fill: #e6edf3; }
+      .prompt { fill: #7ee787; font-weight: bold; }
+      .cmd-text { fill: #e6edf3; }
+      .path { fill: #79c0ff; }
       .key { fill: #79c0ff; }
-      .str { fill: #e3b341; }
+      .str { fill: #a5d6ff; }
       .num { fill: #7ee787; }
       .hash { fill: #d2a8ff; }
-      
+      .dim { fill: #8b949e; }
+      .title-text { font-family: 'Cascadia Code', 'JetBrains Mono', Consolas, monospace; font-size: 12px; fill: #8b949e; }
+
       .blink { animation: blink 1s step-end infinite; }
       @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
 
-      .out1 { opacity: 0; animation: fadeIn 0.1s forwards 1.2s; }
-      .out2 { opacity: 0; animation: fadeIn 0.1s forwards 2.4s; }
-      .out3 { opacity: 0; animation: fadeIn 0.1s forwards 2.4s; }
-      
-      .j1 { opacity: 0; animation: fadeIn 0.05s forwards 3.60s; }
-      .j2 { opacity: 0; animation: fadeIn 0.05s forwards 3.65s; }
-      .j3 { opacity: 0; animation: fadeIn 0.05s forwards 3.70s; }
-      .j4 { opacity: 0; animation: fadeIn 0.05s forwards 3.75s; }
-      .j5 { opacity: 0; animation: fadeIn 0.05s forwards 3.80s; }
-      .j6 { opacity: 0; animation: fadeIn 0.05s forwards 3.85s; }
-      .j7 { opacity: 0; animation: fadeIn 0.05s forwards 3.90s; }
-      
-      .out4 { opacity: 0; animation: fadeIn 0.1s forwards 5.1s; }
-      
+      .pulse { animation: pulse 2s ease-in-out infinite; }
+      @keyframes pulse { 0%, 100% { opacity: 0.6; } 50% { opacity: 1; } }
+
+      .glow { animation: glow 3s ease-in-out infinite; }
+      @keyframes glow { 0%, 100% { stop-color: #238636; } 50% { stop-color: #3fb950; } }
+
+      .out1 { opacity: 0; animation: fadeIn 0.15s forwards 1.0s; }
+      .out2 { opacity: 0; animation: fadeIn 0.15s forwards 2.0s; }
+      .out3 { opacity: 0; animation: fadeIn 0.15s forwards 2.1s; }
+
+      .j1 { opacity: 0; animation: fadeIn 0.05s forwards 3.2s; }
+      .j2 { opacity: 0; animation: fadeIn 0.05s forwards 3.3s; }
+      .j3 { opacity: 0; animation: fadeIn 0.05s forwards 3.4s; }
+      .j4 { opacity: 0; animation: fadeIn 0.05s forwards 3.5s; }
+      .j5 { opacity: 0; animation: fadeIn 0.05s forwards 3.6s; }
+      .j6 { opacity: 0; animation: fadeIn 0.05s forwards 3.7s; }
+      .j7 { opacity: 0; animation: fadeIn 0.05s forwards 3.8s; }
+
+      .out4 { opacity: 0; animation: fadeIn 0.15s forwards 4.8s; }
+
       @keyframes fadeIn { to { opacity: 1; } }
 
-      @keyframes typeW { from { width: 0; } to { width: 700px; } }
-      .cmd1 { width: 0; animation: typeW 0.5s steps(20, end) 0.5s forwards; }
-      .cmd2 { width: 0; animation: typeW 0.5s steps(30, end) 1.7s forwards; }
-      .cmd3 { width: 0; animation: typeW 0.5s steps(30, end) 2.9s forwards; }
-      .cmd4 { width: 0; animation: typeW 0.5s steps(30, end) 4.4s forwards; }
-      .cmd5 { width: 0; animation: typeW 0.1s steps(5, end) 5.6s forwards; }
+      @keyframes typeW { from { width: 0; } to { width: 780px; } }
+      .cmd1 { width: 0; animation: typeW 0.4s steps(6, end) 0.4s forwards; }
+      .cmd2 { width: 0; animation: typeW 0.4s steps(12, end) 1.4s forwards; }
+      .cmd3 { width: 0; animation: typeW 0.5s steps(16, end) 2.5s forwards; }
+      .cmd4 { width: 0; animation: typeW 0.6s steps(22, end) 4.0s forwards; }
+      .cmd5 { width: 0; animation: typeW 0.1s steps(2, end) 5.3s forwards; }
+
+      @keyframes scanline {
+        0% { transform: translateY(-100%); }
+        100% { transform: translateY(580px); }
+      }
     </style>
-    
+
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#238636"/>
+      <stop offset="50%" stop-color="#1f6feb"/>
+      <stop offset="100%" stop-color="#8957e5"/>
+    </linearGradient>
+
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#161b22"/>
+      <stop offset="100%" stop-color="#1c2129"/>
+    </linearGradient>
+
     <clipPath id="c1"><rect x="0" y="-15" height="25" class="cmd1"/></clipPath>
     <clipPath id="c2"><rect x="0" y="-15" height="25" class="cmd2"/></clipPath>
     <clipPath id="c3"><rect x="0" y="-15" height="25" class="cmd3"/></clipPath>
     <clipPath id="c4"><rect x="0" y="-15" height="25" class="cmd4"/></clipPath>
     <clipPath id="c5"><rect x="0" y="-15" height="25" class="cmd5"/></clipPath>
+    <clipPath id="roundClip"><rect width="800" height="580" rx="12"/></clipPath>
   </defs>
 
-  <rect width="700" height="600" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
-  <rect width="700" height="30" rx="10" fill="#161b22"/>
-  <rect y="15" width="700" height="15" fill="#161b22"/>
-  <line x1="0" y1="30" x2="700" y2="30" stroke="#30363d" stroke-width="1"/>
-  
-  <circle cx="20" cy="15" r="6" fill="#ff5f56"/>
-  <circle cx="40" cy="15" r="6" fill="#ffbd2e"/>
-  <circle cx="60" cy="15" r="6" fill="#27c93f"/>
+  <g clip-path="url(#roundClip)">
+    <!-- Outer glow border -->
+    <rect width="800" height="580" rx="12" fill="url(#borderGrad)" opacity="0.4"/>
+    <rect x="1" y="1" width="798" height="578" rx="11" fill="#0d1117"/>
 
-  <g class="term" transform="translate(20, 65)">
-    <text y="0" clip-path="url(#c1)"><tspan class="prompt">$</tspan> <tspan class="cmd-text">whoami</tspan></text>
-    <text y="28" class="out1">ubaid — full-stack dev · civic tech builder · shipper</text>
-    
-    <text y="76" clip-path="url(#c2)"><tspan class="prompt">$</tspan> <tspan class="cmd-text">ls ./shipped/</tspan></text>
-    <text y="104" class="out2"><tspan class="path">ahmedabadmetro/</tspan>   <tspan class="path">kontxt/</tspan>   <tspan class="path">cloud-alert-triage/</tspan></text>
-    <text y="132" class="out3"><tspan class="path">inventra/</tspan>         <tspan class="path">veda/</tspan>     <tspan class="path">theChocoMunch/</tspan></text>
-    
-    <text y="180" clip-path="url(#c3)"><tspan class="prompt">$</tspan> <tspan class="cmd-text">cat ./stats.json</tspan></text>
-    <text y="208" class="j1">{</text>
-    <text y="236" class="j2"><tspan x="20" class="key">"contributions_this_year"</tspan>: <tspan class="num">908</tspan>,</text>
-    <text y="264" class="j3"><tspan x="20" class="key">"commits_june_2026"</tspan>: <tspan class="num">262</tspan>,</text>
-    <text y="292" class="j4"><tspan x="20" class="key">"hackathon_wins"</tspan>: <tspan class="str">"2× finalist (IIT Gandhi. + PDEU)"</tspan>,</text>
-    <text y="320" class="j5"><tspan x="20" class="key">"top_language"</tspan>: <tspan class="str">"TypeScript (37%)"</tspan>,</text>
-    <text y="348" class="j6"><tspan x="20" class="key">"live_users"</tspan>: <tspan class="str">"1000+ on AhmMetro"</tspan></text>
-    <text y="376" class="j7">}</text>
+    <!-- Title bar -->
+    <rect x="1" y="1" width="798" height="38" fill="url(#headerGrad)"/>
+    <line x1="1" y1="39" x2="799" y2="39" stroke="#30363d" stroke-width="0.5"/>
 
-    <text y="424" clip-path="url(#c4)"><tspan class="prompt">$</tspan> <tspan class="cmd-text">git log --oneline -1</tspan></text>
-    <text y="452" class="out4"><tspan class="hash">a4f92c1</tspan> feat: ship kontxt v1</text>
+    <!-- Window controls -->
+    <circle cx="22" cy="20" r="6" fill="#ff5f57"/>
+    <circle cx="42" cy="20" r="6" fill="#febc2e"/>
+    <circle cx="62" cy="20" r="6" fill="#28c840"/>
 
-    <text y="500" clip-path="url(#c5)"><tspan class="prompt">$</tspan> <tspan class="blink" dx="5">█</tspan></text>
+    <!-- Title bar text -->
+    <text x="400" y="24" text-anchor="middle" class="title-text">ubaid@ship ~ /shipped</text>
+
+    <!-- Active indicator -->
+    <circle cx="776" cy="20" r="4" fill="#3fb950" class="pulse"/>
+
+    <!-- Terminal content -->
+    <g class="term" transform="translate(24, 62)">
+      <!-- whoami -->
+      <text y="0" clip-path="url(#c1)"><tspan class="prompt">$</tspan> <tspan class="cmd-text">whoami</tspan></text>
+      <text y="24" class="out1"><tspan fill="#f0883e">ubaid</tspan> <tspan class="dim">—</tspan> full-stack dev <tspan class="dim">·</tspan> civic tech builder <tspan class="dim">·</tspan> shipper</text>
+
+      <!-- ls shipped -->
+      <text y="68" clip-path="url(#c2)"><tspan class="prompt">$</tspan> <tspan class="cmd-text">ls ./shipped/</tspan></text>
+      <text y="92" class="out2"><tspan class="path">ahmedabadmetro/</tspan>   <tspan class="path">kontxt/</tspan>   <tspan class="path">cloud-alert-triage/</tspan></text>
+      <text y="116" class="out3"><tspan class="path">inventra/</tspan>         <tspan class="path">veda/</tspan>     <tspan class="path">theChocoMunch/</tspan></text>
+
+      <!-- cat stats.json -->
+      <text y="160" clip-path="url(#c3)"><tspan class="prompt">$</tspan> <tspan class="cmd-text">cat ./stats.json</tspan></text>
+      <text y="184" class="j1"><tspan class="dim">{</tspan></text>
+      <text y="208" class="j2"><tspan x="20" class="key">"contributions_this_year"</tspan><tspan class="dim">:</tspan> <tspan class="num">908</tspan><tspan class="dim">,</tspan></text>
+      <text y="232" class="j3"><tspan x="20" class="key">"commits_june_2026"</tspan><tspan class="dim">:</tspan> <tspan class="num">262</tspan><tspan class="dim">,</tspan></text>
+      <text y="256" class="j4"><tspan x="20" class="key">"hackathon_wins"</tspan><tspan class="dim">:</tspan> <tspan class="str">"2x finalist (IIT Gandhi. + PDEU)"</tspan><tspan class="dim">,</tspan></text>
+      <text y="280" class="j5"><tspan x="20" class="key">"top_language"</tspan><tspan class="dim">:</tspan> <tspan class="str">"TypeScript (37%)"</tspan><tspan class="dim">,</tspan></text>
+      <text y="304" class="j6"><tspan x="20" class="key">"live_users"</tspan><tspan class="dim">:</tspan> <tspan class="str">"1000+ on AhmMetro"</tspan></text>
+      <text y="328" class="j7"><tspan class="dim">}</tspan></text>
+
+      <!-- git log -->
+      <text y="372" clip-path="url(#c4)"><tspan class="prompt">$</tspan> <tspan class="cmd-text">git log --oneline -1</tspan></text>
+      <text y="396" class="out4"><tspan class="hash">a4f92c1</tspan> <tspan fill="#f0883e">feat:</tspan> ship kontxt v1</text>
+
+      <!-- cursor -->
+      <text y="444" clip-path="url(#c5)"><tspan class="prompt">$</tspan> <tspan class="blink" dx="5">_</tspan></text>
+    </g>
+
+    <!-- Subtle scanline overlay -->
+    <rect x="1" y="39" width="798" height="2" fill="#3fb950" opacity="0.03" class="pulse"/>
   </g>
 </svg>
