@@ -40,14 +40,14 @@
 
 ## 🚀 Currently Building
 
-**[Kontxt](https://kontxt.site)**  
+**[Kontxt](https://kontxt-zeta.vercel.app)**  
 A structured guidance tool that helps developers use AI coding tools (Cursor, Windsurf) more accurately by generating precise planning docs (PRD, TechSpec, AppFlow, etc.).
 
 <br/>
 
 ## 💻 Featured Projects
 
-🚊 **[AhmMetro](https://ahmmetro.app)**  
+🚊 **[AhmMetro](https://ahmedabadmetro.site)**  
 Production PWA for Ahmedabad-Gandhinagar Metro with Dijkstra routing, 54 stations, and exact per-station timetables. 1000+ visits, Android app in Play Store review.  
 ![React](https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 
