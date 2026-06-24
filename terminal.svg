@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="600" viewBox="0 0 700 600">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap');
+      .term { font-family: 'JetBrains Mono', Consolas, Monaco, monospace; font-size: 15px; fill: #c9d1d9; }
+      .prompt { fill: #79c0ff; font-weight: bold; }
+      .cmd-text { fill: #c9d1d9; }
+      .path { fill: #a5d6ff; }
+      .key { fill: #79c0ff; }
+      .str { fill: #e3b341; }
+      .num { fill: #7ee787; }
+      .hash { fill: #d2a8ff; }
+      
+      .blink { animation: blink 1s step-end infinite; }
+      @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+
+      .out1 { opacity: 0; animation: fadeIn 0.1s forwards 1.2s; }
+      .out2 { opacity: 0; animation: fadeIn 0.1s forwards 2.4s; }
+      .out3 { opacity: 0; animation: fadeIn 0.1s forwards 2.4s; }
+      
+      .j1 { opacity: 0; animation: fadeIn 0.05s forwards 3.60s; }
+      .j2 { opacity: 0; animation: fadeIn 0.05s forwards 3.65s; }
+      .j3 { opacity: 0; animation: fadeIn 0.05s forwards 3.70s; }
+      .j4 { opacity: 0; animation: fadeIn 0.05s forwards 3.75s; }
+      .j5 { opacity: 0; animation: fadeIn 0.05s forwards 3.80s; }
+      .j6 { opacity: 0; animation: fadeIn 0.05s forwards 3.85s; }
+      .j7 { opacity: 0; animation: fadeIn 0.05s forwards 3.90s; }
+      
+      .out4 { opacity: 0; animation: fadeIn 0.1s forwards 5.1s; }
+      
+      @keyframes fadeIn { to { opacity: 1; } }
+
+      @keyframes typeW { from { width: 0; } to { width: 700px; } }
+      .cmd1 { width: 0; animation: typeW 0.5s steps(20, end) 0.5s forwards; }
+      .cmd2 { width: 0; animation: typeW 0.5s steps(30, end) 1.7s forwards; }
+      .cmd3 { width: 0; animation: typeW 0.5s steps(30, end) 2.9s forwards; }
+      .cmd4 { width: 0; animation: typeW 0.5s steps(30, end) 4.4s forwards; }
+      .cmd5 { width: 0; animation: typeW 0.1s steps(5, end) 5.6s forwards; }
+    </style>
+    
+    <clipPath id="c1"><rect x="0" y="-15" height="25" class="cmd1"/></clipPath>
+    <clipPath id="c2"><rect x="0" y="-15" height="25" class="cmd2"/></clipPath>
+    <clipPath id="c3"><rect x="0" y="-15" height="25" class="cmd3"/></clipPath>
+    <clipPath id="c4"><rect x="0" y="-15" height="25" class="cmd4"/></clipPath>
+    <clipPath id="c5"><rect x="0" y="-15" height="25" class="cmd5"/></clipPath>
+  </defs>
+
+  <rect width="700" height="600" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  <rect width="700" height="30" rx="10" fill="#161b22"/>
+  <rect y="15" width="700" height="15" fill="#161b22"/>
+  <line x1="0" y1="30" x2="700" y2="30" stroke="#30363d" stroke-width="1"/>
+  
+  <circle cx="20" cy="15" r="6" fill="#ff5f56"/>
+  <circle cx="40" cy="15" r="6" fill="#ffbd2e"/>
+  <circle cx="60" cy="15" r="6" fill="#27c93f"/>
+
+  <g class="term" transform="translate(20, 65)">
+    <text y="0" clip-path="url(#c1)"><tspan class="prompt">$</tspan> <tspan class="cmd-text">whoami</tspan></text>
+    <text y="28" class="out1">ubaid — full-stack dev · civic tech builder · shipper</text>
+    
+    <text y="76" clip-path="url(#c2)"><tspan class="prompt">$</tspan> <tspan class="cmd-text">ls ./shipped/</tspan></text>
+    <text y="104" class="out2"><tspan class="path">ahmedabadmetro/</tspan>   <tspan class="path">kontxt/</tspan>   <tspan class="path">cloud-alert-triage/</tspan></text>
+    <text y="132" class="out3"><tspan class="path">inventra/</tspan>         <tspan class="path">veda/</tspan>     <tspan class="path">theChocoMunch/</tspan></text>
+    
+    <text y="180" clip-path="url(#c3)"><tspan class="prompt">$</tspan> <tspan class="cmd-text">cat ./stats.json</tspan></text>
+    <text y="208" class="j1">{</text>
+    <text y="236" class="j2"><tspan x="20" class="key">"contributions_this_year"</tspan>: <tspan class="num">908</tspan>,</text>
+    <text y="264" class="j3"><tspan x="20" class="key">"commits_june_2026"</tspan>: <tspan class="num">262</tspan>,</text>
+    <text y="292" class="j4"><tspan x="20" class="key">"hackathon_wins"</tspan>: <tspan class="str">"2× finalist (IIT Gandhi. + PDEU)"</tspan>,</text>
+    <text y="320" class="j5"><tspan x="20" class="key">"top_language"</tspan>: <tspan class="str">"TypeScript (37%)"</tspan>,</text>
+    <text y="348" class="j6"><tspan x="20" class="key">"live_users"</tspan>: <tspan class="str">"1000+ on AhmMetro"</tspan></text>
+    <text y="376" class="j7">}</text>
+
+    <text y="424" clip-path="url(#c4)"><tspan class="prompt">$</tspan> <tspan class="cmd-text">git log --oneline -1</tspan></text>
+    <text y="452" class="out4"><tspan class="hash">a4f92c1</tspan> feat: ship kontxt v1 🚀</text>
+
+    <text y="500" clip-path="url(#c5)"><tspan class="prompt">$</tspan> <tspan class="blink" dx="5">█</tspan></text>
+  </g>
+</svg>

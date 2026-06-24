@@ -3,8 +3,11 @@
 </div>
 
 <div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&pause=1000&color=6EE7B7&center=true&width=600&repeat=true&lines=Building+civic+tech+that+ships+%F0%9F%9A%8A;AI+context+tooling+for+real+devs+%F0%9F%A7%A0;2%C3%97+National+Hackathon+Finalist+%F0%9F%8F%86;262+commits+in+June.+Still+going.+%F0%9F%93%88" alt="Typing SVG" />
+</div>
 
-**Building civic tech, AI context tooling, and products that ship.**<br>
+<div align="center">
+
 *Ahmedabad, India*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/notubaid)
@@ -66,6 +69,21 @@ AI-powered hospital pharmacy platform with FEFO stock management and Gemini dema
 <br/>
 
 ## 📈 GitHub Activity & Stats
+
+<div align="center">
+  <img src="./terminal.svg" alt="Terminal Simulation" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://img.shields.io/badge/262_commits_in_June_2026-brightgreen?style=for-the-badge" alt="Commits" />
+  <img src="https://img.shields.io/badge/TypeScript_First-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/2%C3%97_Hackathon_Finalist-gold?style=for-the-badge" alt="Hackathons" />
+  <img src="https://img.shields.io/badge/1K%2B_Metro_Users-blue?style=for-the-badge" alt="Metro Users" />
+</div>
+
+<br/>
 
 <div align="center">
   <picture>
