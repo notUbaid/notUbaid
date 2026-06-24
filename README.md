@@ -55,7 +55,7 @@ Production PWA for Ahmedabad-Gandhinagar Metro with Dijkstra routing, 54 station
 OpenEnv-compliant RL environment for AI agent incident response across a 17-service microservice graph. Submitted to Meta × PyTorch × HuggingFace OpenEnv Hackathon 2026.  
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
-📦 **Inventra**  
+📦 **[Inventra](https://inventra-inventory-system.onrender.com)**  
 Multi-role inventory management system built end-to-end in under 24 hours. *3rd place at Codeversity National Hackathon @ IIT Gandhinagar 2026.*  
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
 
