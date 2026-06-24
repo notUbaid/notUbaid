@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&pause=1000&color=6EE7B7&center=true&width=600&repeat=true&lines=Building+civic+tech+that+ships+%F0%9F%9A%8A;AI+context+tooling+for+real+devs+%F0%9F%A7%A0;2%C3%97+National+Hackathon+Finalist+%F0%9F%8F%86;262+commits+in+June.+Still+going.+%F0%9F%93%88" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&pause=1000&color=6EE7B7&center=true&width=600&repeat=true&lines=Building+civic+tech+that+ships;AI+context+tooling+for+real+devs;2%C3%97+National+Hackathon+Finalist;262+commits+in+June.+Still+going." alt="Typing SVG" />
 </div>
 
 <div align="center">
@@ -17,7 +17,7 @@
 
 <br/>
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 <div align="center">
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
@@ -41,34 +41,34 @@
 
 <br/>
 
-## 🚀 Currently Building
+## Currently Building
 
 **[Kontxt](https://kontxt-zeta.vercel.app)**  
 A structured guidance tool that helps developers use AI coding tools (Cursor, Windsurf) more accurately by generating precise planning docs (PRD, TechSpec, AppFlow, etc.).
 
 <br/>
 
-## 💻 Featured Projects
+## Featured Projects
 
-🚊 **[AhmMetro](https://ahmedabadmetro.site)**  
+**[AhmMetro](https://ahmedabadmetro.site)**  
 Production PWA for Ahmedabad-Gandhinagar Metro with Dijkstra routing, 54 stations, and exact per-station timetables. 1000+ visits, Android app in Play Store review.  
 ![React](https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 
-🚨 **Cloud Alert Triage**  
+**Cloud Alert Triage**  
 OpenEnv-compliant RL environment for AI agent incident response across a 17-service microservice graph. Submitted to Meta × PyTorch × HuggingFace OpenEnv Hackathon 2026.  
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
-📦 **[Inventra](https://inventra-inventory-system.onrender.com)**  
+**[Inventra](https://inventra-inventory-system.onrender.com)**  
 Multi-role inventory management system built end-to-end in under 24 hours. *3rd place at Codeversity National Hackathon @ IIT Gandhinagar 2026.*  
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
 
-🏥 **Veda**  
+**Veda**  
 AI-powered hospital pharmacy platform with FEFO stock management and Gemini demand prediction. *2nd place at Aetrix Hackathon @ PDEU 2026.*  
 ![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=google&logoColor=white) ![Full-Stack](https://img.shields.io/badge/Full_Stack-000000?style=flat-square)
 
 <br/>
 
-## 📈 GitHub Activity & Stats
+## GitHub Activity & Stats
 
 <div align="center">
   <img src="./terminal.svg" alt="Terminal Simulation" />

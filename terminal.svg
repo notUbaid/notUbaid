@@ -72,7 +72,7 @@
     <text y="376" class="j7">}</text>
 
     <text y="424" clip-path="url(#c4)"><tspan class="prompt">$</tspan> <tspan class="cmd-text">git log --oneline -1</tspan></text>
-    <text y="452" class="out4"><tspan class="hash">a4f92c1</tspan> feat: ship kontxt v1 🚀</text>
+    <text y="452" class="out4"><tspan class="hash">a4f92c1</tspan> feat: ship kontxt v1</text>
 
     <text y="500" clip-path="url(#c5)"><tspan class="prompt">$</tspan> <tspan class="blink" dx="5">█</tspan></text>
   </g>
