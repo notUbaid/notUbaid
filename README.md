@@ -65,14 +65,18 @@ AI-powered hospital pharmacy platform with FEFO stock management and Gemini dema
 
 <br/>
 
-## 📈 GitHub Stats
+## 📈 GitHub Activity & Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=notUbaid&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117" alt="notUbaid's GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=notUbaid&theme=radical&hide_border=true&background=0D1117" alt="notUbaid's Streak Stats" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="dist/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="dist/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="dist/github-contribution-grid-snake-dark.svg" width="100%">
+  </picture>
 </div>
 
 <br/>
+
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=notUbaid&layout=compact&theme=radical&hide_border=true&bg_color=0D1117" alt="notUbaid's Top Languages" />
+  <img src="github-metrics.svg" alt="GitHub Metrics" width="100%">
 </div>
