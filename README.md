@@ -145,23 +145,45 @@ AI-powered hospital pharmacy platform with FEFO stock management and Gemini dema
 ## `/stats`
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=notUbaid&show_icons=true&hide_border=true&bg_color=0d1117&title_color=7ee787&icon_color=3fb950&text_color=c9d1d9&ring_color=238636&include_all_commits=true&count_private=true" alt="GitHub Stats" height="180"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=notUbaid&hide_border=true&background=0D1117&ring=238636&fire=3FB950&currStreakLabel=7EE787&sideLabels=C9D1D9&currStreakNum=E6EDF3&sideNums=E6EDF3&dates=8B949E&stroke=30363D" alt="Streak Stats" height="180"/>
+  <a href="https://github.com/notUbaid"><img src="https://github-readme-streak-stats.herokuapp.com?user=notUbaid&hide_border=true&background=0D1117&ring=238636&fire=3FB950&currStreakLabel=7EE787&sideLabels=C9D1D9&currStreakNum=E6EDF3&sideNums=E6EDF3&dates=8B949E&stroke=30363D" alt="Streak Stats" height="180"/></a>
+  <a href="https://github.com/notUbaid"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=notUbaid&layout=compact&hide_border=true&bg_color=0d1117&title_color=7ee787&text_color=c9d1d9&hide=html,css&langs_count=8" alt="Top Languages" height="180"/></a>
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=notUbaid&layout=compact&hide_border=true&bg_color=0d1117&title_color=7ee787&text_color=c9d1d9&hide=html,css&langs_count=8" alt="Top Languages" height="160"/>
+  <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=notUbaid&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=10" alt="Trophies"/></a>
 </div>
 
 <br/>
+
+---
+
+<br/>
+
+## `/3d`
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-green.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-green-animate.svg">
+    <img alt="3D Contribution Graph" src="./profile-3d-contrib/profile-night-green.svg" width="100%">
+  </picture>
+</div>
+
+<br/>
+
+---
+
+<br/>
+
+## `/activity`
 
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="dist/github-contribution-grid-snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="dist/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="dist/github-contribution-grid-snake-dark.svg" width="100%">
+    <img alt="Contribution snake animation" src="dist/github-contribution-grid-snake-dark.svg" width="100%">
   </picture>
 </div>
 
