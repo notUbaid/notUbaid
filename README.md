@@ -21,7 +21,7 @@
 <br/>
 
 <div align="center">
-  <img src="./terminal.svg" alt="Terminal" width="800"/>
+  <img src="./terminal.svg" alt="Terminal" width="100%"/>
 </div>
 
 <br/>
