@@ -65,104 +65,107 @@
   <circle cx="42" cy="20" r="5" fill="#F59E0B"><animate attributeName="opacity" values="1;0.55;1" dur="4s" begin="0.3s" repeatCount="indefinite"/></circle>
   <circle cx="60" cy="20" r="5" fill="#10B981"><animate attributeName="opacity" values="1;0.55;1" dur="4s" begin="0.6s" repeatCount="indefinite"/></circle>
   <text x="590" y="25" text-anchor="middle" class="term-label">notUbaid@ship ~ % ./profile.sh --live</text>
-  <circle cx="1122" cy="20" r="4" fill="#F87171">
+  <circle cx="1060" cy="20" r="4" fill="#F87171">
     <animate attributeName="opacity" values="1;0.15;1" dur="1.1s" repeatCount="indefinite"/>
   </circle>
-  <text x="1132" y="24" class="scan-label">SCANNING</text>
+  <text x="1070" y="24" class="scan-label">SCANNING</text>
 </g>
 
 <g transform="translate(0,38)">
-  <rect x="14" y="26" width="488" height="488" rx="14" fill="#0B1120" fill-opacity="0.35" stroke="url(#borderGrad)" stroke-width="1" opacity="0.35"/>
-  <rect x="508" y="10" width="655" height="504" rx="14" fill="#0B1120" fill-opacity="0.35" stroke="url(#borderGrad)" stroke-width="1" opacity="0.35"/>
+  <rect x="14" y="26" width="488" height="518" rx="14" fill="#0B1120" fill-opacity="0.35" stroke="url(#borderGrad)" stroke-width="1" opacity="0.35"/>
+  <rect x="508" y="10" width="655" height="534" rx="14" fill="#0B1120" fill-opacity="0.35" stroke="url(#borderGrad)" stroke-width="1" opacity="0.35"/>
   <text x="30" y="24" class="panel-title">VISUAL.MAP</text>
   <text x="524" y="24" class="panel-title">SYSTEM.INFO</text>
 
   <g mask="url(#revealMask)">
   <text x="30" y="0" class="ascii">
-<tspan x="24" y="50.00" xml:space="preserve"> </tspan>
-<tspan x="24" y="57.55" xml:space="preserve"> </tspan>
-<tspan x="24" y="65.10" xml:space="preserve"> </tspan>
-<tspan x="24" y="72.65" xml:space="preserve"> </tspan>
-<tspan x="24" y="80.20" xml:space="preserve"> </tspan>
-<tspan x="24" y="87.75" xml:space="preserve"> </tspan>
-<tspan x="24" y="95.30" xml:space="preserve"> </tspan>
-<tspan x="24" y="102.85" xml:space="preserve"> </tspan>
-<tspan x="24" y="110.40" xml:space="preserve"> </tspan>
-<tspan x="24" y="117.95" xml:space="preserve"> </tspan>
-<tspan x="24" y="125.50" xml:space="preserve"> </tspan>
-<tspan x="24" y="133.05" xml:space="preserve"> </tspan>
-<tspan x="24" y="140.60" xml:space="preserve"> </tspan>
-<tspan x="24" y="148.15" xml:space="preserve"> </tspan>
-<tspan x="24" y="155.70" xml:space="preserve"> </tspan>
-<tspan x="24" y="163.25" xml:space="preserve"> </tspan>
-<tspan x="24" y="170.80" xml:space="preserve"> </tspan>
-<tspan x="24" y="178.35" xml:space="preserve">                                     =::-----</tspan>
-<tspan x="24" y="185.90" xml:space="preserve">                                 ::::-------------</tspan>
-<tspan x="24" y="193.45" xml:space="preserve">                             :::-----..--------------</tspan>
-<tspan x="24" y="201.00" xml:space="preserve">                           -:::-......----------------</tspan>
-<tspan x="24" y="208.55" xml:space="preserve">                           ---..........--.------------</tspan>
-<tspan x="24" y="216.10" xml:space="preserve">                          -------..........--..--.-----</tspan>
-<tspan x="24" y="223.65" xml:space="preserve">                           ------.-:::--.............--</tspan>
-<tspan x="24" y="231.20" xml:space="preserve">                              .-::=++++=:::::--......-:</tspan>
-<tspan x="24" y="238.75" xml:space="preserve">                              -:=+++*****++++==::-----</tspan>
-<tspan x="24" y="246.30" xml:space="preserve">                              -==++********+++++=:----</tspan>
-<tspan x="24" y="253.85" xml:space="preserve">                               ==+++****++++==++++:--:</tspan>
-<tspan x="24" y="261.40" xml:space="preserve">                              :-...--=+:.....-:=++=::=+=</tspan>
-<tspan x="24" y="268.95" xml:space="preserve">                              :-.....:+:......-:+++::=++</tspan>
-<tspan x="24" y="276.50" xml:space="preserve">                              :------=*+:-:--:=+++=::=+</tspan>
-<tspan x="24" y="284.05" xml:space="preserve">                               ==:::=+**+======+++:-:++</tspan>
-<tspan x="24" y="291.60" xml:space="preserve">                               =+++=+++++++=++++=::-=**#####%###</tspan>
-<tspan x="24" y="299.15" xml:space="preserve">                               :==:::-::::==:=+=::-:****####%%%%%%%%%#</tspan>
-<tspan x="24" y="306.70" xml:space="preserve">                                ::::====++++:==::--=*##*#####%%%#%%%%%%%</tspan>
-<tspan x="24" y="314.25" xml:space="preserve">                               #*:--:=======::----==+#**######%%##%%%%%%#</tspan>
-<tspan x="24" y="321.80" xml:space="preserve">                           %######+----:------.-:===*#**#####%%%%%%%%%####</tspan>
-<tspan x="24" y="329.35" xml:space="preserve">                         %%%%######*=-.....---:=====##*######%%#%%%%%#%%%%#</tspan>
-<tspan x="24" y="336.90" xml:space="preserve">                      %%%%%%%#######*=:::::::======*##*######%%%%%%%%%%%%%##</tspan>
-<tspan x="24" y="344.45" xml:space="preserve">                    %%%%%%%%%########=::=:::=====:+##########%%%%%%%%#%%%%%%</tspan>
-<tspan x="24" y="352.00" xml:space="preserve">                  %%%%%%%%%%#########*:::::::::::+###########%%%%%%%#%%%%%%%#</tspan>
-<tspan x="24" y="359.55" xml:space="preserve">                 %%%%%%%%##%##########=:::::::::*#######%####%%%%#%#%%%%%%%#%</tspan>
-<tspan x="24" y="367.10" xml:space="preserve">                %%#%%%%%%############**=:::::::=########%####%%%%#####%%%##%%#</tspan>
-<tspan x="24" y="374.65" xml:space="preserve">               %%%####%%%%%##########***+====::+########%####%%%%#####%%#%%%%%#</tspan>
-<tspan x="24" y="382.20" xml:space="preserve">               #%%%%%##%%%%###########****+====:##############%%%####%%%%%%%%%%#</tspan>
-<tspan x="24" y="389.75" xml:space="preserve">               ##%%%%%%###%############********+*########%####%%%#####%%%%%%%%%%#</tspan>
-<tspan x="24" y="397.30" xml:space="preserve">               ###%%%%%###################****##*########%%####%######%%%%%%%%%%%</tspan>
-<tspan x="24" y="404.85" xml:space="preserve">               ##*###%%%##################################%#######*###%%%%%%%%%%%#</tspan>
-<tspan x="24" y="412.40" xml:space="preserve">               *##*#*##%%#######################*#################*####%%%%%%%%%%%#</tspan>
-<tspan x="24" y="419.95" xml:space="preserve">               **%####*#%%%####################***##############**+*###%%%%%%%%%%%#</tspan>
-<tspan x="24" y="427.50" xml:space="preserve">               ***#####*#%%%###################**##############***++###%%%%%%%%%%%%#</tspan>
-<tspan x="24" y="435.05" xml:space="preserve">               ##**#%###*##%#############**++==:=##############****=**###%%%%%%%%%##</tspan>
-<tspan x="24" y="442.60" xml:space="preserve">              #####*#%%%#**#%########*==::-------#############*++**==*##%%%%##**++++=</tspan>
-<tspan x="24" y="450.15" xml:space="preserve">              %###%#*##%%#**#%#######=----------=#############*++*++=+*##*++++++++===</tspan>
-<tspan x="24" y="457.70" xml:space="preserve">              %%###########**#%###**+-.-.--::..-*###%#########+=+++===+===+++++++++==</tspan>
-<tspan x="24" y="465.25" xml:space="preserve">               ############*=+###+++=:::===+:--:+*#%%#########+========++++++++++++==</tspan>
-<tspan x="24" y="472.80" xml:space="preserve">              #***#%%###***+=:=*+++++*++=:===+==+############*=====+++++**+++++++++===</tspan>
-<tspan x="24" y="480.35" xml:space="preserve">              ####***####**+=-:=+====::====+==:=*##########*++=+++++++++++++++++++====</tspan>
-<tspan x="24" y="487.90" xml:space="preserve">              ############*+:-:::++=======::==+*######**+++++++*****++++++++++=======:</tspan>
-<tspan x="24" y="495.45" xml:space="preserve">              ***#######*+++:::::=++=========+**+**++++++++*****++++++========:::::::</tspan>
+<tspan x="24" y="50.00" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"> </tspan>
+<tspan x="24" y="57.55" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"> </tspan>
+<tspan x="24" y="65.10" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"> </tspan>
+<tspan x="24" y="72.65" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"> </tspan>
+<tspan x="24" y="80.20" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"> </tspan>
+<tspan x="24" y="87.75" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"> </tspan>
+<tspan x="24" y="95.30" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"> </tspan>
+<tspan x="24" y="102.85" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"> </tspan>
+<tspan x="24" y="110.40" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"> </tspan>
+<tspan x="24" y="117.95" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"> </tspan>
+<tspan x="24" y="125.50" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"> </tspan>
+<tspan x="24" y="133.05" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"> </tspan>
+<tspan x="24" y="140.60" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"> </tspan>
+<tspan x="24" y="148.15" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"> </tspan>
+<tspan x="24" y="155.70" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"> </tspan>
+<tspan x="24" y="163.25" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"> </tspan>
+<tspan x="24" y="170.80" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"> </tspan>
+<tspan x="24" y="178.35" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">                                   =::-----</tspan>
+<tspan x="24" y="185.90" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">                                ::::------------</tspan>
+<tspan x="24" y="193.45" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">                            ::-----..-------------</tspan>
+<tspan x="24" y="201.00" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">                          -::-.......--------------</tspan>
+<tspan x="24" y="208.55" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">                         :---..........-.-----------</tspan>
+<tspan x="24" y="216.10" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">                         ----.--.........-...-..-----</tspan>
+<tspan x="24" y="223.65" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">                         :--------::--.........-..---</tspan>
+<tspan x="24" y="231.20" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">                            --:::+++++=::::--.....--</tspan>
+<tspan x="24" y="238.75" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">                             -=+++*****++++==:-----</tspan>
+<tspan x="24" y="246.30" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">                             :=++********++++=::---</tspan>
+<tspan x="24" y="253.85" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">                             ===+++***++++==+++=:--</tspan>
+<tspan x="24" y="261.40" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">                             :-..--:+:....--:+++::=+=</tspan>
+<tspan x="24" y="268.95" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">                            -:.....:=:.....--=++=:==+</tspan>
+<tspan x="24" y="276.50" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">                             :-----=*+:-:--:=+++=:=+</tspan>
+<tspan x="24" y="284.05" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">                             ==:::=+**+======++=:-++</tspan>
+<tspan x="24" y="291.60" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">                              =++==++++++=++++=:-:***########</tspan>
+<tspan x="24" y="299.15" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">                              :=:::-::::==:=+=::-=****###%%%%%%%%%</tspan>
+<tspan x="24" y="306.70" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">                               :::====++++:==::-:=*#**####%%%#%%%%%%%</tspan>
+<tspan x="24" y="314.25" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">                             ##=--:=======::---:==***######%%##%%%%%%#</tspan>
+<tspan x="24" y="321.80" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">                          ######*:---:------.-:===##*######%%%%%%%%##%#</tspan>
+<tspan x="24" y="329.35" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">                        %%%#######+-.....---:====+##*#####%%#%%%%%%%%%%</tspan>
+<tspan x="24" y="336.90" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">                     %%%%%%#######*=:::::::======###*#####%%%%%%%%%%%%%#</tspan>
+<tspan x="24" y="344.45" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">                   %%%%%%%%%#####*#=::=:::====:=*#########%%%%%%%##%%%%%%</tspan>
+<tspan x="24" y="352.00" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">                 %%%%%%%%%%########*:::::::::::*##########%%%%%%%#%%%%%%#</tspan>
+<tspan x="24" y="359.55" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">                %%%%%%%%##%#########+:::::::::*######%####%%%%#%#%%%%%%#%#</tspan>
+<tspan x="24" y="367.10" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">               %%%#%%%%############**=:::::::+#######%####%%%######%%%#%%##</tspan>
+<tspan x="24" y="374.65" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">              %%%%###%%%%###########**+====::*#######%####%%%%#####%%%%%%%#</tspan>
+<tspan x="24" y="382.20" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">              #%%%%%##%%%%##########****+===:=########%####%%#####%%%%%%%%%#</tspan>
+<tspan x="24" y="389.75" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">              ##%%%%%####%###########********+########%####%%######%%%%%%%%%#</tspan>
+<tspan x="24" y="397.30" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">              ###%%%%%##################****##########%%####%#####%%%%%%%%%%%</tspan>
+<tspan x="24" y="404.85" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">              ##*###%%%################################%#######*###%%%%%%%%%%#</tspan>
+<tspan x="24" y="412.40" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">              *##*#*##%%################################%######*###%%%%%%%%%%%#</tspan>
+<tspan x="24" y="419.95" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">              **####**#%%####################***#############**+###%%%%%%%%%%%#</tspan>
+<tspan x="24" y="427.50" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">              #**#%###*#%%###################**#############***++##%%%%%%%%%%%%#</tspan>
+<tspan x="24" y="435.05" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">              ##**#%###*#%%############**++==:+#############***+=*###%%%%%%%%%##</tspan>
+<tspan x="24" y="442.60" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">              ####*#%%%#*#%%########==::-----.=############*+***==*#%%%%##**++++=</tspan>
+<tspan x="24" y="450.15" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">             %#####*##%##*#%%######+----------*############*++*+==+*##*++++++++==</tspan>
+<tspan x="24" y="457.70" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">             #%##########*+######*+:.-.--:-..:####%########+=+++======+++++++++==</tspan>
+<tspan x="24" y="465.25" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">              *##########*+=*##*+++=::===+:--=*#%%%########+========+++++++++++==</tspan>
+<tspan x="24" y="472.80" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">              ***#%%##***++=:+*++++*++=:==++==*###########*=====+++++*+++++++++===</tspan>
+<tspan x="24" y="480.35" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">              ###***####**+:-:+====:::===+==:=*#########**+=++++++++++++++++++====</tspan>
+<tspan x="24" y="487.90" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">             ############*=-:::=++======::==+*#####**+++++++****++++++++++=======:</tspan>
+<tspan x="24" y="495.45" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">             ***######**+++:=:::++=========+**+**+++++++*****++++++=======:::::::</tspan>
 
   </text>
   </g>
 
   <g clip-path="url(#lc0)"><text x="520" y="0"><tspan x="520" y="42" class="head">notUbaid@ship</tspan><tspan class="cc"> -——————————————————————————————————————————-—-</tspan></text></g>
-<g clip-path="url(#lc1)"><text x="520" y="0"><tspan x="520" y="66" class="cc">. </tspan><tspan class="key">Subject</tspan><tspan class="cc">: ....................... </tspan><tspan class="value">Ubaid Khan</tspan></text></g>
-<g clip-path="url(#lc2)"><text x="520" y="0"><tspan x="520" y="88" class="cc">. </tspan><tspan class="key">Role</tspan><tspan class="cc">: .......................... </tspan><tspan class="value">Full-Stack Engineer / AI Developer</tspan></text></g>
-<g clip-path="url(#lc3)"><text x="520" y="0"><tspan x="520" y="110" class="cc">. </tspan><tspan class="key">Origin</tspan><tspan class="cc">: ........................ </tspan><tspan class="value">Ahmedabad, India</tspan></text></g>
-<g clip-path="url(#lc4)"><text x="520" y="0"><tspan x="520" y="132" class="cc">. </tspan><tspan class="key">Education</tspan><tspan class="cc">: ..................... </tspan><tspan class="value">IAR</tspan></text></g>
-<g clip-path="url(#lc5)"><text x="520" y="0"><tspan x="520" y="154" class="cc">. </tspan><tspan class="key">Status</tspan><tspan class="cc">: ........................ </tspan><tspan class="value">Building • Learning • Shipping</tspan></text></g>
-<g clip-path="url(#lc6)"><text x="520" y="0"><tspan x="520" y="176" class="cc">. </tspan><tspan class="key">ToolChain</tspan><tspan class="cc">: ..................... </tspan><tspan class="value">VS Code, Git, Docker, Cursor</tspan></text></g>
+<g clip-path="url(#lc1)"><text x="520" y="0"><tspan x="520" y="66" class="cc">. </tspan><tspan class="key">Subject</tspan><tspan class="cc">: ..................... </tspan><tspan class="value">Ubaid Khan</tspan></text></g>
+<g clip-path="url(#lc2)"><text x="520" y="0"><tspan x="520" y="88" class="cc">. </tspan><tspan class="key">Role</tspan><tspan class="cc">: ........................ </tspan><tspan class="value">Full-Stack Engineer / AI Developer</tspan></text></g>
+<g clip-path="url(#lc3)"><text x="520" y="0"><tspan x="520" y="110" class="cc">. </tspan><tspan class="key">Origin</tspan><tspan class="cc">: ...................... </tspan><tspan class="value">Ahmedabad, India</tspan></text></g>
+<g clip-path="url(#lc4)"><text x="520" y="0"><tspan x="520" y="132" class="cc">. </tspan><tspan class="key">Education</tspan><tspan class="cc">: ................... </tspan><tspan class="value">Institute of Advanced Research (IAR)</tspan></text></g>
+<g clip-path="url(#lc5)"><text x="520" y="0"><tspan x="520" y="154" class="cc">. </tspan><tspan class="key">Status</tspan><tspan class="cc">: ...................... </tspan><tspan class="value">Building • Learning • Shipping</tspan></text></g>
+<g clip-path="url(#lc6)"><text x="520" y="0"><tspan x="520" y="176" class="cc">. </tspan><tspan class="key">ToolChain</tspan><tspan class="cc">: ................... </tspan><tspan class="value">Git, Docker, Antigravity</tspan></text></g>
 <g clip-path="url(#lc7)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="198" class="cc">. </tspan></text></g>
-<g clip-path="url(#lc8)"><text x="520" y="0"><tspan x="520" y="220" class="cc">. </tspan><tspan class="key">Core.Lang</tspan><tspan class="cc">: ..................... </tspan><tspan class="value">TypeScript, Python, JavaScript</tspan></text></g>
-<g clip-path="url(#lc9)"><text x="520" y="0"><tspan x="520" y="242" class="cc">. </tspan><tspan class="key">Core.Frontend</tspan><tspan class="cc">: ................. </tspan><tspan class="value">React, Next.js, Tailwind, HTML</tspan></text></g>
-<g clip-path="url(#lc10)"><text x="520" y="0"><tspan x="520" y="264" class="cc">. </tspan><tspan class="key">Core.Backend</tspan><tspan class="cc">: .................. </tspan><tspan class="value">Node.js, Express, FastAPI</tspan></text></g>
-<g clip-path="url(#lc11)"><text x="520" y="0"><tspan x="520" y="286" class="cc">. </tspan><tspan class="key">Core.Database</tspan><tspan class="cc">: ................. </tspan><tspan class="value">Postgres, MongoDB, Supabase</tspan></text></g>
-<g clip-path="url(#lc12)"><text x="520" y="0"><tspan x="520" y="308" class="cc">. </tspan><tspan class="key">Core.Infra</tspan><tspan class="cc">: .................... </tspan><tspan class="value">Docker, Vercel, Render</tspan></text></g>
-<g clip-path="url(#lc13)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="330" class="cc">. </tspan></text></g>
-<g clip-path="url(#lc17)"><text x="520" y="0"><tspan x="520" y="440" class="accent">- Contact</tspan><tspan class="cc"> -————————————————————————————————————————————-—-</tspan></text></g>
-<g clip-path="url(#lc15)"><text x="520" y="0"><tspan x="520" y="374" class="cc">. </tspan><tspan class="key">Grid.Mail</tspan><tspan class="cc">: ..................... </tspan><tspan class="value">me.khanubaid@gmail.com</tspan></text></g>
-<g clip-path="url(#lc16)"><text x="520" y="0"><tspan x="520" y="396" class="cc">. </tspan><tspan class="key">Grid.LinkedIn</tspan><tspan class="cc">: ................. </tspan><tspan class="value">linkedin.com/in/notubaid</tspan></text></g>
-<g clip-path="url(#lc17)"><text x="520" y="0"><tspan x="520" y="418" class="cc">. </tspan><tspan class="key">Grid.Github</tspan><tspan class="cc">: ................... </tspan><tspan class="value">github.com/notUbaid</tspan></text></g>
+<g clip-path="url(#lc8)"><text x="520" y="0"><tspan x="520" y="220" class="cc">. </tspan><tspan class="key">Projects</tspan><tspan class="cc">: .................... </tspan><tspan class="value">AhmMetro, Kontxt</tspan></text></g>
+<g clip-path="url(#lc9)"><text x="520" y="0"><tspan x="520" y="242" class="cc">. </tspan><tspan class="key">Hackathons</tspan><tspan class="cc">: .................. </tspan><tspan class="value">2x Finalist</tspan></text></g>
+<g clip-path="url(#lc10)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="264" class="cc">. </tspan></text></g>
+<g clip-path="url(#lc11)"><text x="520" y="0"><tspan x="520" y="286" class="cc">. </tspan><tspan class="key">Core.Lang</tspan><tspan class="cc">: ................... </tspan><tspan class="value">TypeScript, Python, JavaScript</tspan></text></g>
+<g clip-path="url(#lc12)"><text x="520" y="0"><tspan x="520" y="308" class="cc">. </tspan><tspan class="key">Core.Frontend</tspan><tspan class="cc">: ............... </tspan><tspan class="value">React, Next.js, Tailwind, HTML</tspan></text></g>
+<g clip-path="url(#lc13)"><text x="520" y="0"><tspan x="520" y="330" class="cc">. </tspan><tspan class="key">Core.Backend</tspan><tspan class="cc">: ................ </tspan><tspan class="value">Node.js, Express, FastAPI</tspan></text></g>
+<g clip-path="url(#lc14)"><text x="520" y="0"><tspan x="520" y="352" class="cc">. </tspan><tspan class="key">Core.Database</tspan><tspan class="cc">: ............... </tspan><tspan class="value">Postgres, MongoDB, Supabase</tspan></text></g>
+<g clip-path="url(#lc15)"><text x="520" y="0"><tspan x="520" y="374" class="cc">. </tspan><tspan class="key">Core.Infra</tspan><tspan class="cc">: .................. </tspan><tspan class="value">Docker, Vercel, Render</tspan></text></g>
+<g clip-path="url(#lc16)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="396" class="cc">. </tspan></text></g>
+<g clip-path="url(#lc20)"><text x="520" y="0"><tspan x="520" y="506" class="accent">- Contact</tspan><tspan class="cc"> -————————————————————————————————————————————-—-</tspan></text></g>
+<g clip-path="url(#lc18)"><text x="520" y="0"><tspan x="520" y="440" class="cc">. </tspan><tspan class="key">Grid.Mail</tspan><tspan class="cc">: ................... </tspan><tspan class="value">me.khanubaid@gmail.com</tspan></text></g>
+<g clip-path="url(#lc19)"><text x="520" y="0"><tspan x="520" y="462" class="cc">. </tspan><tspan class="key">Grid.LinkedIn</tspan><tspan class="cc">: ............... </tspan><tspan class="value">linkedin.com/in/notubaid</tspan></text></g>
+<g clip-path="url(#lc20)"><text x="520" y="0"><tspan x="520" y="484" class="cc">. </tspan><tspan class="key">Grid.Github</tspan><tspan class="cc">: ................. </tspan><tspan class="value">github.com/notUbaid</tspan></text></g>
 
-  <rect x="522" y="499" width="9" height="16" class="cursor-blink" opacity="0">
+  <rect x="522" y="565" width="9" height="16" class="cursor-blink" opacity="0">
     <animate attributeName="opacity" values="0;0;1;0;1;0;1;0" keyTimes="0;0.01;0.02;0.3;0.5;0.7;0.85;1" dur="1.4s" begin="3.66s" repeatCount="indefinite"/>
   </rect>
 </g>
