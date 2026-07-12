@@ -1,8 +1,8 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./hero-dark.svg?v=9">
-    <source media="(prefers-color-scheme: light)" srcset="./hero-light.svg?v=9">
-    <img alt="Hero Banner" src="./hero-dark.svg?v=9" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="./hero-dark.svg?v=10">
+    <source media="(prefers-color-scheme: light)" srcset="./hero-light.svg?v=10">
+    <img alt="Hero Banner" src="./hero-dark.svg?v=10" width="100%">
   </picture>
 </div>
 
