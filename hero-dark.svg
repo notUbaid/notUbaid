@@ -79,66 +79,61 @@
 
   <g mask="url(#revealMask)">
   <text x="30" y="0" class="ascii">
-<tspan x="24" y="50.00" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"> </tspan>
-<tspan x="24" y="57.55" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"> </tspan>
-<tspan x="24" y="65.10" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"> </tspan>
-<tspan x="24" y="72.65" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"> </tspan>
-<tspan x="24" y="80.20" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"> </tspan>
-<tspan x="24" y="87.75" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"> </tspan>
-<tspan x="24" y="95.30" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"> </tspan>
-<tspan x="24" y="102.85" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"> </tspan>
-<tspan x="24" y="110.40" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"> </tspan>
-<tspan x="24" y="117.95" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"> </tspan>
-<tspan x="24" y="125.50" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"> </tspan>
-<tspan x="24" y="133.05" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"> </tspan>
-<tspan x="24" y="140.60" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"> </tspan>
-<tspan x="24" y="148.15" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"> </tspan>
-<tspan x="24" y="155.70" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"> </tspan>
-<tspan x="24" y="163.25" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"> </tspan>
-<tspan x="24" y="170.80" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"> </tspan>
-<tspan x="24" y="178.35" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">                                   =::-----</tspan>
-<tspan x="24" y="185.90" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">                                ::::------------</tspan>
-<tspan x="24" y="193.45" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">                            ::-----..-------------</tspan>
-<tspan x="24" y="201.00" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">                          -::-.......--------------</tspan>
-<tspan x="24" y="208.55" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">                         :---..........-.-----------</tspan>
-<tspan x="24" y="216.10" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">                         ----.--.........-...-..-----</tspan>
-<tspan x="24" y="223.65" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">                         :--------::--.........-..---</tspan>
-<tspan x="24" y="231.20" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">                            --:::+++++=::::--.....--</tspan>
-<tspan x="24" y="238.75" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">                             -=+++*****++++==:-----</tspan>
-<tspan x="24" y="246.30" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">                             :=++********++++=::---</tspan>
-<tspan x="24" y="253.85" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">                             ===+++***++++==+++=:--</tspan>
-<tspan x="24" y="261.40" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">                             :-..--:+:....--:+++::=+=</tspan>
-<tspan x="24" y="268.95" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">                            -:.....:=:.....--=++=:==+</tspan>
-<tspan x="24" y="276.50" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">                             :-----=*+:-:--:=+++=:=+</tspan>
-<tspan x="24" y="284.05" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">                             ==:::=+**+======++=:-++</tspan>
-<tspan x="24" y="291.60" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">                              =++==++++++=++++=:-:***########</tspan>
-<tspan x="24" y="299.15" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">                              :=:::-::::==:=+=::-=****###%%%%%%%%%</tspan>
-<tspan x="24" y="306.70" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">                               :::====++++:==::-:=*#**####%%%#%%%%%%%</tspan>
-<tspan x="24" y="314.25" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">                             ##=--:=======::---:==***######%%##%%%%%%#</tspan>
-<tspan x="24" y="321.80" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">                          ######*:---:------.-:===##*######%%%%%%%%##%#</tspan>
-<tspan x="24" y="329.35" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">                        %%%#######+-.....---:====+##*#####%%#%%%%%%%%%%</tspan>
-<tspan x="24" y="336.90" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">                     %%%%%%#######*=:::::::======###*#####%%%%%%%%%%%%%#</tspan>
-<tspan x="24" y="344.45" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">                   %%%%%%%%%#####*#=::=:::====:=*#########%%%%%%%##%%%%%%</tspan>
-<tspan x="24" y="352.00" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">                 %%%%%%%%%%########*:::::::::::*##########%%%%%%%#%%%%%%#</tspan>
-<tspan x="24" y="359.55" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">                %%%%%%%%##%#########+:::::::::*######%####%%%%#%#%%%%%%#%#</tspan>
-<tspan x="24" y="367.10" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">               %%%#%%%%############**=:::::::+#######%####%%%######%%%#%%##</tspan>
-<tspan x="24" y="374.65" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">              %%%%###%%%%###########**+====::*#######%####%%%%#####%%%%%%%#</tspan>
-<tspan x="24" y="382.20" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">              #%%%%%##%%%%##########****+===:=########%####%%#####%%%%%%%%%#</tspan>
-<tspan x="24" y="389.75" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">              ##%%%%%####%###########********+########%####%%######%%%%%%%%%#</tspan>
-<tspan x="24" y="397.30" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">              ###%%%%%##################****##########%%####%#####%%%%%%%%%%%</tspan>
-<tspan x="24" y="404.85" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">              ##*###%%%################################%#######*###%%%%%%%%%%#</tspan>
-<tspan x="24" y="412.40" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">              *##*#*##%%################################%######*###%%%%%%%%%%%#</tspan>
-<tspan x="24" y="419.95" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">              **####**#%%####################***#############**+###%%%%%%%%%%%#</tspan>
-<tspan x="24" y="427.50" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">              #**#%###*#%%###################**#############***++##%%%%%%%%%%%%#</tspan>
-<tspan x="24" y="435.05" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">              ##**#%###*#%%############**++==:+#############***+=*###%%%%%%%%%##</tspan>
-<tspan x="24" y="442.60" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">              ####*#%%%#*#%%########==::-----.=############*+***==*#%%%%##**++++=</tspan>
-<tspan x="24" y="450.15" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">             %#####*##%##*#%%######+----------*############*++*+==+*##*++++++++==</tspan>
-<tspan x="24" y="457.70" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">             #%##########*+######*+:.-.--:-..:####%########+=+++======+++++++++==</tspan>
-<tspan x="24" y="465.25" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">              *##########*+=*##*+++=::===+:--=*#%%%########+========+++++++++++==</tspan>
-<tspan x="24" y="472.80" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">              ***#%%##***++=:+*++++*++=:==++==*###########*=====+++++*+++++++++===</tspan>
-<tspan x="24" y="480.35" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">              ###***####**+:-:+====:::===+==:=*#########**+=++++++++++++++++++====</tspan>
-<tspan x="24" y="487.90" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">             ############*=-:::=++======::==+*#####**+++++++****++++++++++=======:</tspan>
-<tspan x="24" y="495.45" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs">             ***######**+++:=:::++=========+**+**+++++++*****++++++=======:::::::</tspan>
+<tspan x="70" y="40.00" xml:space="preserve"> </tspan>
+<tspan x="70" y="47.55" xml:space="preserve"> </tspan>
+<tspan x="70" y="55.10" xml:space="preserve"> </tspan>
+<tspan x="70" y="62.65" xml:space="preserve"> </tspan>
+<tspan x="70" y="70.20" xml:space="preserve"> </tspan>
+<tspan x="70" y="77.75" xml:space="preserve"> </tspan>
+<tspan x="70" y="85.30" xml:space="preserve"> </tspan>
+<tspan x="70" y="92.85" xml:space="preserve"> </tspan>
+<tspan x="70" y="100.40" xml:space="preserve"> </tspan>
+<tspan x="70" y="107.95" xml:space="preserve"> </tspan>
+<tspan x="70" y="115.50" xml:space="preserve"> </tspan>
+<tspan x="70" y="123.05" xml:space="preserve"> </tspan>
+<tspan x="70" y="130.60" xml:space="preserve"> </tspan>
+<tspan x="70" y="138.15" xml:space="preserve"> </tspan>
+<tspan x="70" y="145.70" xml:space="preserve"> </tspan>
+<tspan x="70" y="153.25" xml:space="preserve"> </tspan>
+<tspan x="70" y="160.80" xml:space="preserve">                             ::------</tspan>
+<tspan x="70" y="168.35" xml:space="preserve">                        :-----.------------</tspan>
+<tspan x="70" y="175.90" xml:space="preserve">                      ---........-----------</tspan>
+<tspan x="70" y="183.45" xml:space="preserve">                     :-----.---.........-.---</tspan>
+<tspan x="70" y="191.00" xml:space="preserve">                        --::=+++=::::--....-</tspan>
+<tspan x="70" y="198.55" xml:space="preserve">                         =++*******+++=:----</tspan>
+<tspan x="70" y="206.10" xml:space="preserve">                         :::==++==:::=++=::==</tspan>
+<tspan x="70" y="213.65" xml:space="preserve">                        :-....:=.....-=++=:==</tspan>
+<tspan x="70" y="221.20" xml:space="preserve">                         :::::+*+::::=++=::++</tspan>
+<tspan x="70" y="228.75" xml:space="preserve">                         =+====+=====++=:-+**######%#%</tspan>
+<tspan x="70" y="236.30" xml:space="preserve">                          :::=====+=:=:--:*#*####%%%%%%%%%</tspan>
+<tspan x="70" y="243.85" xml:space="preserve">                        ##*=:-::::::----==+#*#####%%#%%%%%%#</tspan>
+<tspan x="70" y="251.40" xml:space="preserve">                    %%%%####*=---.---:====*#*####%%%%%%%%%%%#</tspan>
+<tspan x="70" y="258.95" xml:space="preserve">                 %%%%%%######*=:::::===:=*#######%%%%%%%%%%%%#</tspan>
+<tspan x="70" y="266.50" xml:space="preserve">              %%%%%%%%%#######+::::::::+#########%%%%%%%%%%%%%</tspan>
+<tspan x="70" y="274.05" xml:space="preserve">             %%%#%%%##########*+=:::::=######%####%%#####%%%%%%</tspan>
+<tspan x="70" y="281.60" xml:space="preserve">            #%%%###%%%#########**+===:=######%####%%#####%%%%%%#</tspan>
+<tspan x="70" y="289.15" xml:space="preserve">            ##%%%%%#############*******#######%###%%#####%%%%%%%%</tspan>
+<tspan x="70" y="296.70" xml:space="preserve">            #####%%%###########################%#########%%%%%%%%%</tspan>
+<tspan x="70" y="304.25" xml:space="preserve">            *####*#%%##################*#############**##%%%%%%%%%#</tspan>
+<tspan x="70" y="311.80" xml:space="preserve">            #*#####*#%%#############**+*###########***+*###%%%%%%%%#</tspan>
+<tspan x="70" y="319.35" xml:space="preserve">            #####%%#*##%#####%*===::---=###########+**+=*#%%%###**+++</tspan>
+<tspan x="70" y="326.90" xml:space="preserve">           ##########**#%####*:..----.-*##########*+++==+++++++++++==</tspan>
+<tspan x="70" y="334.45" xml:space="preserve">            *##%%####*+=*#**++===:==:-:*#%%#######+=====++++++++++++=</tspan>
+<tspan x="70" y="342.00" xml:space="preserve">            ########**+::++============*######***++=+++++++++++++++==</tspan>
+<tspan x="70" y="349.55" xml:space="preserve">           *########**=::::++========+**#***++++++***++++++++=====:::</tspan>
+<tspan x="70" y="357.10" xml:space="preserve">           #########*===::::=+++====+++=++++++++++++=====::::-----.-</tspan>
+<tspan x="70" y="364.65" xml:space="preserve">           ========::::::::::====++++=--=++++======:::------------...</tspan>
+<tspan x="70" y="372.20" xml:space="preserve">           --:::::-----::::-:::==++++=---==:::----.....-------------.-</tspan>
+<tspan x="70" y="379.75" xml:space="preserve">            --------------..-:==++=:.................------------------</tspan>
+<tspan x="70" y="387.30" xml:space="preserve">            ......--....--:==++++=-.................-........------....</tspan>
+<tspan x="70" y="394.85" xml:space="preserve">              ........:==+*+:-:=:......................................</tspan>
+<tspan x="70" y="402.40" xml:space="preserve">              ....-:=++*+*=...:=......................................</tspan>
+<tspan x="70" y="409.95" xml:space="preserve">             ...-=+*+*+:++....--.....................................</tspan>
+<tspan x="70" y="417.50" xml:space="preserve">            ...-=+=++=--+-..........................................</tspan>
+<tspan x="70" y="425.05" xml:space="preserve">           ....----:-.--............................................</tspan>
+<tspan x="70" y="432.60" xml:space="preserve">           ..-------------............   ........... ..............</tspan>
+<tspan x="70" y="440.15" xml:space="preserve">            ..------------............                ............</tspan>
+<tspan x="70" y="447.70" xml:space="preserve">            .........................                 ...........</tspan>
 
   </text>
   </g>
