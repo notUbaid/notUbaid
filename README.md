@@ -1,9 +1,9 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:238636,100:1f6feb&height=220&section=header&text=Ubaid&fontSize=75&fontColor=e6edf3&fontAlignY=35&desc=Full-stack%20%2B%20AI%20Developer%20%7C%20Shipper&descAlignY=55&descAlign=50&descSize=18" alt="Header"/>
-</div>
-
-<div align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&pause=1000&color=7EE787&center=true&vCenter=true&width=600&repeat=true&lines=Building+civic+tech+that+ships;AI+context+tooling+for+real+devs;2%C3%97+National+Hackathon+Finalist;262+commits+in+June.+Still+going." alt="Typing SVG" /></a>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./hero-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./hero-light.svg">
+    <img alt="Hero Banner" src="./hero-dark.svg" width="100%">
+  </picture>
 </div>
 
 <br/>
@@ -27,8 +27,8 @@
 <br/>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/908_contributions_this_year-238636?style=for-the-badge&logo=github&logoColor=white" alt="Contributions"/>
-  <img src="https://img.shields.io/badge/262_commits_in_June-3fb950?style=for-the-badge&logo=git&logoColor=white" alt="June Commits"/>
+  <img src="https://img.shields.io/badge/2,000%2B_Contributions-238636?style=for-the-badge&logo=github&logoColor=white" alt="Contributions"/>
+  <img src="https://img.shields.io/badge/Active_Open_Source_Contributor-3fb950?style=for-the-badge&logo=git&logoColor=white" alt="Active Commits"/>
   <img src="https://img.shields.io/badge/2x_Hackathon_Finalist-8957e5?style=for-the-badge&logo=trophy&logoColor=white" alt="Hackathons"/>
   <img src="https://img.shields.io/badge/1K%2B_Metro_Users-1f6feb?style=for-the-badge&logo=googleanalytics&logoColor=white" alt="Users"/>
 </div>
