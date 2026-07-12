@@ -112,7 +112,7 @@
             <text x="160" y="25" fill="#C9D1D9">Ahmedabad, India</text>
             
             <text x="0" y="50" fill="#58A6FF" font-weight="bold">Education</text>
-            <text x="160" y="50" fill="#C9D1D9">PDEU</text>
+            <text x="160" y="50" fill="#C9D1D9">IAR</text>
             
             <text x="0" y="75" fill="#58A6FF" font-weight="bold">Status</text>
             <text x="160" y="75" fill="#C9D1D9">Building - Learning - Shipping</text>
@@ -143,14 +143,11 @@
             <text x="0" y="0" fill="#58A6FF" font-weight="bold">Grid Mail</text>
             <text x="160" y="0" fill="#C9D1D9">me.khanubaid@gmail.com</text>
             
-            <text x="0" y="25" fill="#58A6FF" font-weight="bold">Grid Portfolio</text>
-            <text x="160" y="25" fill="#C9D1D9">ahmedabadmetro.site</text>
+            <text x="0" y="25" fill="#58A6FF" font-weight="bold">Grid LinkedIn</text>
+            <text x="160" y="25" fill="#C9D1D9">linkedin.com/in/notubaid</text>
             
-            <text x="0" y="50" fill="#58A6FF" font-weight="bold">Grid LinkedIn</text>
-            <text x="160" y="50" fill="#C9D1D9">linkedin.com/in/notubaid</text>
-            
-            <text x="0" y="75" fill="#58A6FF" font-weight="bold">Grid GitHub</text>
-            <text x="160" y="75" fill="#C9D1D9">github.com/notUbaid</text>
+            <text x="0" y="50" fill="#58A6FF" font-weight="bold">Grid GitHub</text>
+            <text x="160" y="50" fill="#C9D1D9">github.com/notUbaid</text>
         </g>
 
         <!-- Blinking cursor -->
