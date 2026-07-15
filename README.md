@@ -66,7 +66,7 @@ Think of it as a **context compiler for AI-assisted development**.
 <div>
   <img src="https://img.shields.io/badge/status-actively_shipping-3fb950?style=flat-square" alt="Status"/>
   <img src="https://img.shields.io/badge/stage-v1_live-1f6feb?style=flat-square" alt="Stage"/>
-  <img src="https://img.shields.io/badge/stack-Next.js_%2B_TypeScript-000?style=flat-square&logo=nextdotjs" alt="Stack"/>
+  <img src="https://img.shields.io/badge/stack-React_19_%2B_TypeScript-000?style=flat-square&logo=react" alt="Stack"/>
 </div>
 
 </td>
@@ -116,19 +116,45 @@ Multi-role inventory management system built end-to-end in under 24 hours. *3rd 
 
 <sub>
 
-`Node.js` `Express` `MongoDB`
+`React 19` `Node.js` `SQLite` `Tailwind`
 
 </sub>
 
 </td>
 <td width="50%" valign="top">
 
-### Veda
+### [Veda](https://veda-management.vercel.app/)
 AI-powered hospital pharmacy platform with FEFO stock management and Gemini demand prediction. *2nd place at Aetrix Hackathon @ PDEU 2026.*
 
 <sub>
 
-`Gemini API` `Full-Stack` `Python`
+`React 19` `TypeScript` `Firebase` `Gemini 1.5`
+
+</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [WhiteNet](https://github.com/Destroyerved/WhiteNet)
+Decentralized, identity-first Zero Trust network layer protocol. Built a custom PKI, simulated TLS 1.3 handshakes, and derived encrypted VPN tunnels.
+
+<sub>
+
+`Python` `React` `Flask` `Zero Trust`
+
+</sub>
+
+</td>
+<td width="50%" valign="top">
+
+### [The Choco Munch](https://thechocomunch.vercel.app/)
+Responsive, mobile-first business website for a bakery client. SEO optimised and conversion-focused layout.
+
+<sub>
+
+`React` `TypeScript` `Tailwind CSS`
 
 </sub>
 
