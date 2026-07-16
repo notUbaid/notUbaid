@@ -9,6 +9,7 @@
 <br/>
 
 <div align="center">
+  <a href="https://notubaid.vercel.app"><img src="https://img.shields.io/badge/Portfolio-2563EB?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
   <a href="https://linkedin.com/in/notubaid"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="./resume.pdf"><img src="https://img.shields.io/badge/Resume-2563EB?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Resume"/></a>
   <a href="https://github.com/notUbaid"><img src="https://komarev.com/ghpvc/?username=notUbaid&style=for-the-badge&color=1f6feb&label=PROFILE+VIEWS" alt="Profile Views"/></a>
