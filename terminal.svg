@@ -1,143 +1,124 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="340" viewBox="0 0 1000 340" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="580" viewBox="0 0 800 580">
   <defs>
     <style>
-      .term-text { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 12px; }
-      .header-title { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 11px; fill: #78726D; letter-spacing: 0.06em; }
-      .cmd-prompt { fill: #9E1B32; font-weight: 700; }
-      .cmd-user { fill: #FAF9F6; font-weight: 600; }
-      .cmd-str { fill: #FAF9F6; font-weight: 500; }
-      
-      .log-ts { fill: #78726D; }
-      .log-tag { fill: #B81D33; font-weight: 700; }
-      .log-entity { fill: #FAF9F6; font-weight: 600; }
-      .log-meta { fill: #A8A29E; }
-      .log-dim { fill: #5A5550; }
-      .log-val-accent { fill: #9E1B32; font-weight: 600; }
-      .log-ok { fill: #FAF9F6; font-weight: 700; }
+      .term { font-family: 'Cascadia Code', 'JetBrains Mono', 'Fira Code', Consolas, monospace; font-size: 14px; fill: #e6edf3; }
+      .prompt { fill: #7ee787; font-weight: bold; }
+      .cmd-text { fill: #e6edf3; }
+      .path { fill: #79c0ff; }
+      .key { fill: #79c0ff; }
+      .str { fill: #a5d6ff; }
+      .num { fill: #7ee787; }
+      .hash { fill: #d2a8ff; }
+      .dim { fill: #8b949e; }
+      .title-text { font-family: 'Cascadia Code', 'JetBrains Mono', Consolas, monospace; font-size: 12px; fill: #8b949e; }
 
-      @keyframes termBlink {
-        0%, 100% { opacity: 1; }
-        50% { opacity: 0; }
-      }
-      .cursor { animation: termBlink 1.1s step-end infinite; }
+      .blink { animation: blink 1s step-end infinite; }
+      @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
 
-      @keyframes logReveal {
-        0% { opacity: 0; transform: translateY(2px); }
-        100% { opacity: 1; transform: translateY(0); }
+      .pulse { animation: pulse 2s ease-in-out infinite; }
+      @keyframes pulse { 0%, 100% { opacity: 0.6; } 50% { opacity: 1; } }
+
+      .glow { animation: glow 3s ease-in-out infinite; }
+      @keyframes glow { 0%, 100% { stop-color: #238636; } 50% { stop-color: #3fb950; } }
+
+      .out1 { opacity: 0; animation: fadeIn 0.15s forwards 1.0s; }
+      .out2 { opacity: 0; animation: fadeIn 0.15s forwards 2.0s; }
+      .out3 { opacity: 0; animation: fadeIn 0.15s forwards 2.1s; }
+
+      .j1 { opacity: 0; animation: fadeIn 0.05s forwards 3.2s; }
+      .j2 { opacity: 0; animation: fadeIn 0.05s forwards 3.3s; }
+      .j3 { opacity: 0; animation: fadeIn 0.05s forwards 3.4s; }
+      .j4 { opacity: 0; animation: fadeIn 0.05s forwards 3.5s; }
+      .j5 { opacity: 0; animation: fadeIn 0.05s forwards 3.6s; }
+      .j6 { opacity: 0; animation: fadeIn 0.05s forwards 3.7s; }
+      .j7 { opacity: 0; animation: fadeIn 0.05s forwards 3.8s; }
+
+      .out4 { opacity: 0; animation: fadeIn 0.15s forwards 4.8s; }
+
+      @keyframes fadeIn { to { opacity: 1; } }
+
+      @keyframes typeW { from { width: 0; } to { width: 780px; } }
+      .cmd1 { width: 0; animation: typeW 0.4s steps(6, end) 0.4s forwards; }
+      .cmd2 { width: 0; animation: typeW 0.4s steps(12, end) 1.4s forwards; }
+      .cmd3 { width: 0; animation: typeW 0.5s steps(16, end) 2.5s forwards; }
+      .cmd4 { width: 0; animation: typeW 0.6s steps(22, end) 4.0s forwards; }
+      .cmd5 { width: 0; animation: typeW 0.1s steps(2, end) 5.3s forwards; }
+
+      @keyframes scanline {
+        0% { transform: translateY(-100%); }
+        100% { transform: translateY(580px); }
       }
-      .line-1 { animation: logReveal 0.25s ease-out forwards 0.2s; opacity: 0; }
-      .line-2 { animation: logReveal 0.25s ease-out forwards 0.4s; opacity: 0; }
-      .line-3 { animation: logReveal 0.25s ease-out forwards 0.6s; opacity: 0; }
-      .line-4 { animation: logReveal 0.25s ease-out forwards 0.8s; opacity: 0; }
-      .line-5 { animation: logReveal 0.25s ease-out forwards 1.0s; opacity: 0; }
-      .line-6 { animation: logReveal 0.25s ease-out forwards 1.2s; opacity: 0; }
-      .line-7 { animation: logReveal 0.25s ease-out forwards 1.4s; opacity: 0; }
     </style>
+
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#238636"/>
+      <stop offset="50%" stop-color="#1f6feb"/>
+      <stop offset="100%" stop-color="#8957e5"/>
+    </linearGradient>
+
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#161b22"/>
+      <stop offset="100%" stop-color="#1c2129"/>
+    </linearGradient>
+
+    <clipPath id="c1"><rect x="0" y="-15" height="25" class="cmd1"/></clipPath>
+    <clipPath id="c2"><rect x="0" y="-15" height="25" class="cmd2"/></clipPath>
+    <clipPath id="c3"><rect x="0" y="-15" height="25" class="cmd3"/></clipPath>
+    <clipPath id="c4"><rect x="0" y="-15" height="25" class="cmd4"/></clipPath>
+    <clipPath id="c5"><rect x="0" y="-15" height="25" class="cmd5"/></clipPath>
+    <clipPath id="roundClip"><rect width="800" height="580" rx="12"/></clipPath>
   </defs>
 
-  <!-- Terminal Window Chrome -->
-  <rect width="1000" height="340" fill="#0A0808"/>
-  <rect x="0.5" y="0.5" width="999" height="339" fill="none" stroke="#261C1E" stroke-width="1"/>
+  <g clip-path="url(#roundClip)">
+    <!-- Outer glow border -->
+    <rect width="800" height="580" rx="12" fill="url(#borderGrad)" opacity="0.4"/>
+    <rect x="1" y="1" width="798" height="578" rx="11" fill="#0d1117"/>
 
-  <!-- Terminal Header Strip -->
-  <rect x="1" y="1" width="998" height="34" fill="#120E0F"/>
-  <line x1="1" y1="35" x2="999" y2="35" stroke="#261C1E" stroke-width="1"/>
+    <!-- Title bar -->
+    <rect x="1" y="1" width="798" height="38" fill="url(#headerGrad)"/>
+    <line x1="1" y1="39" x2="799" y2="39" stroke="#30363d" stroke-width="0.5"/>
 
-  <!-- Header Window Dots -->
-  <circle cx="20" cy="18" r="4.5" fill="#9E1B32"/>
-  <circle cx="36" cy="18" r="4.5" fill="#261C1E"/>
-  <circle cx="52" cy="18" r="4.5" fill="#261C1E"/>
+    <!-- Window controls -->
+    <circle cx="22" cy="20" r="6" fill="#ff5f57"/>
+    <circle cx="42" cy="20" r="6" fill="#febc2e"/>
+    <circle cx="62" cy="20" r="6" fill="#28c840"/>
 
-  <!-- Header Center Tab -->
-  <g transform="translate(72, 8)">
-    <rect width="360" height="20" fill="#0A0808" stroke="#261C1E" stroke-width="1"/>
-    <text x="12" y="14" class="header-title">ubaid@legion-canary: ~/ops-telemetry --zsh</text>
-  </g>
+    <!-- Title bar text -->
+    <text x="400" y="24" text-anchor="middle" class="title-text">ubaid@ship ~ /shipped</text>
 
-  <!-- Header Right Status -->
-  <text x="792" y="22" class="header-title">DAEMON: <tspan fill="#FAF9F6">ACTIVE</tspan> // PID: <tspan fill="#9E1B32">4091</tspan> // SHIFT: <tspan fill="#FAF9F6">ONCALL</tspan></text>
+    <!-- Active indicator -->
+    <circle cx="776" cy="20" r="4" fill="#3fb950" class="pulse"/>
 
-  <!-- Terminal Body Content -->
-  <g transform="translate(24, 62)" class="term-text">
-    <!-- Prompt Command Line -->
-    <g class="line-1">
-      <text x="0" y="0">
-        <tspan class="cmd-prompt">legion-canary::</tspan><tspan class="cmd-user">ubaid</tspan><tspan class="log-dim"> [~/ops-telemetry] </tspan><tspan class="cmd-prompt">#</tspan>
-        <tspan class="cmd-str" dx="8">exec ./diagnostics/dump-operational-receipts.sh --strict --target=production</tspan>
-      </text>
+    <!-- Terminal content -->
+    <g class="term" transform="translate(24, 62)">
+      <!-- whoami -->
+      <text y="0" clip-path="url(#c1)"><tspan class="prompt">$</tspan> <tspan class="cmd-text">whoami</tspan></text>
+      <text y="24" class="out1"><tspan fill="#f0883e">ubaid</tspan> <tspan class="dim">—</tspan> full-stack dev <tspan class="dim">·</tspan> civic tech builder <tspan class="dim">·</tspan> shipper</text>
+
+      <!-- ls shipped -->
+      <text y="68" clip-path="url(#c2)"><tspan class="prompt">$</tspan> <tspan class="cmd-text">ls ./shipped/</tspan></text>
+      <text y="92" class="out2"><tspan class="path">ahmedabadmetro/</tspan>   <tspan class="path">kontxt/</tspan>   <tspan class="path">cloud-alert-triage/</tspan></text>
+      <text y="116" class="out3"><tspan class="path">inventra/</tspan>         <tspan class="path">veda/</tspan>     <tspan class="path">theChocoMunch/</tspan></text>
+
+      <!-- cat stats.json -->
+      <text y="160" clip-path="url(#c3)"><tspan class="prompt">$</tspan> <tspan class="cmd-text">cat ./stats.json</tspan></text>
+      <text y="184" class="j1"><tspan class="dim">{</tspan></text>
+      <text y="208" class="j2"><tspan x="20" class="key">"contributions_this_year"</tspan><tspan class="dim">:</tspan> <tspan class="num">908</tspan><tspan class="dim">,</tspan></text>
+      <text y="232" class="j3"><tspan x="20" class="key">"commits_june_2026"</tspan><tspan class="dim">:</tspan> <tspan class="num">262</tspan><tspan class="dim">,</tspan></text>
+      <text y="256" class="j4"><tspan x="20" class="key">"hackathon_wins"</tspan><tspan class="dim">:</tspan> <tspan class="str">"2x finalist (IIT Gandhi. + PDEU)"</tspan><tspan class="dim">,</tspan></text>
+      <text y="280" class="j5"><tspan x="20" class="key">"top_language"</tspan><tspan class="dim">:</tspan> <tspan class="str">"TypeScript (37%)"</tspan><tspan class="dim">,</tspan></text>
+      <text y="304" class="j6"><tspan x="20" class="key">"live_users"</tspan><tspan class="dim">:</tspan> <tspan class="str">"1000+ on AhmMetro"</tspan></text>
+      <text y="328" class="j7"><tspan class="dim">}</tspan></text>
+
+      <!-- git log -->
+      <text y="372" clip-path="url(#c4)"><tspan class="prompt">$</tspan> <tspan class="cmd-text">git log --oneline -1</tspan></text>
+      <text y="396" class="out4"><tspan class="hash">a4f92c1</tspan> <tspan fill="#f0883e">feat:</tspan> ship kontxt v1</text>
+
+      <!-- cursor -->
+      <text y="444" clip-path="url(#c5)"><tspan class="prompt">$</tspan> <tspan class="blink" dx="5">_</tspan></text>
     </g>
 
-    <!-- Divider Trace Line -->
-    <g class="line-2">
-      <line x1="0" y1="14" x2="952" y2="14" stroke="#261C1E" stroke-width="1" stroke-dasharray="4 4"/>
-    </g>
-
-    <!-- Receipt 1: FlowGuard -->
-    <g class="line-3" transform="translate(0, 36)">
-      <text x="0" y="0">
-        <tspan class="log-ts">[00.012s]</tspan>
-        <tspan class="log-tag" dx="8">daemon:</tspan>
-        <tspan class="log-entity" dx="6">flowguard-crowd-engine</tspan>
-        <tspan class="log-meta" dx="8">(mode=</tspan><tspan class="log-val-accent">OFFLINE_FIRST</tspan><tspan class="log-meta">, env=</tspan><tspan class="log-ok">GUJARAT_METRO_ONBOARD</tspan><tspan class="log-meta">, routing=</tspan><tspan class="log-ok">DIJKSTRA</tspan><tspan class="log-meta">)</tspan>
-      </text>
-    </g>
-
-    <!-- Receipt 2: Ahmedabad Metro Network -->
-    <g class="line-4" transform="translate(0, 68)">
-      <text x="0" y="0">
-        <tspan class="log-ts">[00.019s]</tspan>
-        <tspan class="log-tag" dx="8">dataset:</tspan>
-        <tspan class="log-entity" dx="6">ahmedabad-metro-network</tspan>
-        <tspan class="log-meta" dx="8">(nodes=</tspan><tspan class="log-ok">54_mapped</tspan><tspan class="log-meta">, schedule=</tspan><tspan class="log-ok">32k_json_canonical</tspan><tspan class="log-meta">, transit_api=</tspan><tspan class="log-val-accent">REVERSE_ENGINEERED</tspan><tspan class="log-meta">)</tspan>
-      </text>
-    </g>
-
-    <!-- Receipt 3: High-Density Fintech -->
-    <g class="line-5" transform="translate(0, 100)">
-      <text x="0" y="0">
-        <tspan class="log-ts">[00.024s]</tspan>
-        <tspan class="log-tag" dx="8">ui-core:</tspan>
-        <tspan class="log-entity" dx="6">fintech-workspace</tspan>
-        <tspan class="log-meta" dx="8">(precision=</tspan><tspan class="log-val-accent">decimal_strict</tspan><tspan class="log-meta">, nav=</tspan><tspan class="log-ok">keyboard_only</tspan><tspan class="log-meta">, dom_overhead=</tspan><tspan class="log-ok">zero_virtualized</tspan><tspan class="log-meta">, latency=</tspan><tspan class="log-val-accent">&lt;16ms</tspan><tspan class="log-meta">)</tspan>
-      </text>
-    </g>
-
-    <!-- Receipt 4: Engines Cluster -->
-    <g class="line-6" transform="translate(0, 132)">
-      <text x="0" y="0">
-        <tspan class="log-ts">[00.031s]</tspan>
-        <tspan class="log-tag" dx="8">engines:</tspan>
-        <tspan class="log-entity" dx="6">campus-sync</tspan>
-        <tspan class="log-meta" dx="6">(conflict_solver=</tspan><tspan class="log-ok">active</tspan><tspan class="log-meta">)</tspan>
-        <tspan class="log-dim" dx="6">|</tspan>
-        <tspan class="log-entity" dx="6">veda-hms</tspan>
-        <tspan class="log-meta" dx="6">(fefo_stock=</tspan><tspan class="log-ok">verified</tspan><tspan class="log-meta">)</tspan>
-        <tspan class="log-dim" dx="6">|</tspan>
-        <tspan class="log-entity" dx="6">talent-lens-parser</tspan>
-        <tspan class="log-meta" dx="6">(stream=</tspan><tspan class="log-ok">bounded</tspan><tspan class="log-meta">)</tspan>
-      </text>
-    </g>
-
-    <!-- Receipt 5: Runtime & Chaos Benchmark -->
-    <g class="line-7" transform="translate(0, 164)">
-      <text x="0" y="0">
-        <tspan class="log-ts">[00.038s]</tspan>
-        <tspan class="log-tag" dx="8">runtime:</tspan>
-        <tspan class="log-entity" dx="6">nextjs + typescript + tailwind + gemini-agents</tspan>
-        <tspan class="log-dim" dx="6">|</tspan>
-        <tspan class="log-meta" dx="6">geo-bollard-heuristic=</tspan><tspan class="log-ok">READY</tspan>
-        <tspan class="log-dim" dx="6">|</tspan>
-        <tspan class="log-meta" dx="6">sre-dag=</tspan><tspan class="log-val-accent">17_SVC_PASS</tspan>
-      </text>
-    </g>
-
-    <!-- Live Telemetry Prompt with blinking cursor -->
-    <g transform="translate(0, 210)">
-      <text x="0" y="0">
-        <tspan class="cmd-prompt">legion-canary::</tspan><tspan class="cmd-user">ubaid</tspan><tspan class="log-dim"> [~/ops-telemetry] </tspan><tspan class="cmd-prompt">#</tspan>
-        <tspan class="log-meta" dx="8">status: awaiting next operational directive</tspan>
-      </text>
-      <rect x="424" y="-11" width="7" height="14" fill="#9E1B32" class="cursor"/>
-    </g>
+    <!-- Subtle scanline overlay -->
+    <rect x="1" y="39" width="798" height="2" fill="#3fb950" opacity="0.03" class="pulse"/>
   </g>
 </svg>

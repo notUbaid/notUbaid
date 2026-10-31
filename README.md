@@ -1,43 +1,109 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./hero-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./hero-light.svg">
-    <img alt="Ubaid Naeem Khan // Systems Architecture Datasheet" src="./hero-dark.svg" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="./hero-dark.svg?v=12">
+    <source media="(prefers-color-scheme: light)" srcset="./hero-light.svg?v=12">
+    <img alt="Hero Banner" src="./hero-dark.svg?v=12" width="100%">
   </picture>
 </div>
 
+<br/>
+
 <div align="center">
-  <img src="./terminal.svg" alt="Operational Telemetry Dump" width="100%"/>
+  <a href="https://notubaid.vercel.app"><img src="https://img.shields.io/badge/Portfolio-2563EB?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
+  <a href="https://linkedin.com/in/notubaid"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="./resume.pdf"><img src="https://img.shields.io/badge/Resume-2563EB?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Resume"/></a>
+  <a href="https://github.com/notUbaid"><img src="https://komarev.com/ghpvc/?username=notUbaid&style=for-the-badge&color=1f6feb&label=PROFILE+VIEWS" alt="Profile Views"/></a>
 </div>
 
-## `// OPERATIONAL FIELD LOG : SELECTED SYSTEMS`
+<br/>
 
-<table width="100%" align="center">
+---
+
+<br/>
+
+<div align="center">
+  <img src="./terminal.svg" alt="Terminal" width="100%"/>
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://img.shields.io/badge/2,000%2B_Contributions-238636?style=for-the-badge&logo=github&logoColor=white" alt="Contributions"/>
+  <img src="https://img.shields.io/badge/Active_Open_Source_Contributor-3fb950?style=for-the-badge&logo=git&logoColor=white" alt="Active Commits"/>
+  <img src="https://img.shields.io/badge/2x_Hackathon_Finalist-8957e5?style=for-the-badge&logo=trophy&logoColor=white" alt="Hackathons"/>
+  <img src="https://img.shields.io/badge/1K%2B_Metro_Users-1f6feb?style=for-the-badge&logo=googleanalytics&logoColor=white" alt="Users"/>
+</div>
+
+<br/>
+
+---
+
+<br/>
+
+## `/stack`
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=ts,react,nextjs,vite,tailwind,python,nodejs,fastapi,express,postgres,supabase,firebase,docker,vercel,git&perline=8&theme=dark" alt="Tech Stack"/>
+</div>
+
+<br/>
+
+---
+
+<br/>
+
+## `/now`
+
+<table align="center">
+<tr>
+<td width="600">
+
+### Currently shipping: [Kontxt](https://kontxt-zeta.vercel.app)
+
+A structured guidance tool that helps devs use AI coding tools (Cursor, Windsurf) more accurately by generating precise planning documents — PRD, TechSpec, AppFlow, and more.
+
+Think of it as a **context compiler for AI-assisted development**.
+
+<div>
+  <img src="https://img.shields.io/badge/status-actively_shipping-3fb950?style=flat-square" alt="Status"/>
+  <img src="https://img.shields.io/badge/stage-v1_live-1f6feb?style=flat-square" alt="Stage"/>
+  <img src="https://img.shields.io/badge/stack-React_19_%2B_TypeScript-000?style=flat-square&logo=react" alt="Stack"/>
+</div>
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+---
+
+<br/>
+
+## `/shipped`
+
+<table align="center">
 <tr>
 <td width="50%" valign="top">
 
-### [FlowGuard // Ahmedabad Metro](https://github.com/notUbaid/ahmedabadmetro)
-`OFFLINE-FIRST TRANSIT CONTROLLER &amp; TELEMETRY`
-
-Reverse-engineered official Gujarat Metro public schedule releases into a structured 32K-line canonical graph when no public API existed. Implemented Dijkstra pathfinding across 54 stations with deterministic transfer scheduling. Built and field-tested offline-first PWA architecture aboard moving train cars under total cellular outage.
+### [AhmMetro](https://ahmedabadmetro.site)
+Production PWA for Ahmedabad-Gandhinagar Metro. Dijkstra routing, 54 stations, exact per-station timetables from official GMRC data (32K-line JSON). 1000+ visits. Android app in Play Store review.
 
 <sub>
 
-`TypeScript` `React 19` `PWA / ServiceWorker` `Dijkstra O(V+E)` `Vite`
+`React 19` `TypeScript` `Vite` `shadcn/ui` `Vercel`
 
 </sub>
 
 </td>
 <td width="50%" valign="top">
 
-### [Cloud Alert Triage](https://github.com/notUbaid/cloud-alert-triage)
-`AUTONOMOUS SRE CHAOS BENCHMARK (OPENENV)`
-
-Reinforcement learning benchmark testing autonomous incident-response agents on a 17-service microservice DAG. Models real-world alert fatigue with dynamic cascading outages (untriaged root failures spawn live dependent alarms), stealth data-layer degradation, and noise discrimination. *Built for Meta × PyTorch × Hugging Face OpenEnv Hackathon 2026.*
+### Cloud Alert Triage
+OpenEnv-compliant RL environment for AI agent incident response across a 17-service microservice graph. Submitted to Meta x PyTorch x HuggingFace OpenEnv Hackathon 2026.
 
 <sub>
 
-`Python 3.11` `FastAPI` `Docker` `Gymnasium` `OpenEnv` `Pydantic v2`
+`Python` `FastAPI` `Docker` `Gymnasium`
 
 </sub>
 
@@ -46,28 +112,24 @@ Reinforcement learning benchmark testing autonomous incident-response agents on 
 <tr>
 <td width="50%" valign="top">
 
-### High-Density Fintech Workspace
-`SUB-FRAME EXECUTION &amp; STRICT NUMERIC WORKBENCH`
-
-Deterministic financial data workbench engineered for strict sub-frame latency (&lt;16ms target). Eliminates DOM bloat through virtualized grid layers, arbitrary-precision decimal arithmetic to prevent floating-point drift, and keyboard-first shortcut mechanics for zero-latency execution.
+### [Inventra](https://inventra-inventory-system.onrender.com)
+Multi-role inventory management system built end-to-end in under 24 hours. *3rd place at Codeversity National Hackathon @ IIT Gandhinagar 2026.*
 
 <sub>
 
-`TypeScript` `Strict Decimals` `Virtualized DOM` `Keyboard Navigation`
+`React 19` `Node.js` `SQLite` `Tailwind`
 
 </sub>
 
 </td>
 <td width="50%" valign="top">
 
-### Campus Sync (Campus Sense)
-`MULTI-STUDENT CONSTRAINT &amp; TIMETABLE SOLVER`
-
-Mobile-optimized scheduling engine designed for institutional committee coordination. Solves multi-dimensional timetable conflict matrices across student course rosters, faculty availability, and room capacity constraints with instant client-side resolution.
+### [Veda](https://veda-management.vercel.app/)
+AI-powered hospital pharmacy platform with FEFO stock management and Gemini demand prediction. *2nd place at Aetrix Hackathon @ PDEU 2026.*
 
 <sub>
 
-`Next.js` `TypeScript` `Constraint Engine` `Tailwind CSS`
+`React 19` `TypeScript` `Firebase` `Gemini 1.5`
 
 </sub>
 
@@ -76,28 +138,24 @@ Mobile-optimized scheduling engine designed for institutional committee coordina
 <tr>
 <td width="50%" valign="top">
 
-### [Veda Hospital Suite](https://veda-management.vercel.app/) &amp; Talent Lens
-`CRITICAL LOGISTICS &amp; BOUNDED AST EXTRACTION`
-
-Dual systems engineering: Veda automates hospital pharmacy supply chains with First-Expired, First-Out (FEFO) batch tracking and predictive stock depletion models (*2nd place, Aetrix Hackathon @ PDEU 2026*). Talent Lens runs high-throughput, schema-bounded AST extraction for automated resume telemetry.
+### [WhiteNet](https://github.com/Destroyerved/WhiteNet)
+Decentralized, identity-first Zero Trust network layer protocol. Built a custom PKI, simulated TLS 1.3 handshakes, and derived encrypted VPN tunnels.
 
 <sub>
 
-`React 19` `TypeScript` `Firebase` `Gemini 1.5` `AST Extraction`
+`Python` `React` `Flask` `Zero Trust`
 
 </sub>
 
 </td>
 <td width="50%" valign="top">
 
-### Infrastructure &amp; Technical Governance
-`SYSTEMS LEADERSHIP &amp; CLOUD DEPLOYMENTS`
-
-Digital Head at Technical Club (Institute of Advanced Research, Gandhinagar) — overseeing club deployment pipelines, event infrastructure, and internal developer platforms. Microsoft Student Ambassador leading technical sessions on cloud architectures and deterministic web engineering.
+### [The Choco Munch](https://thechocomunch.vercel.app/)
+Responsive, mobile-first business website for a bakery client. SEO optimised and conversion-focused layout.
 
 <sub>
 
-`DevOps` `CI/CD Pipelines` `Technical Governance` `Cloud Architecture`
+`React` `TypeScript` `Tailwind CSS`
 
 </sub>
 
@@ -107,32 +165,60 @@ Digital Head at Technical Club (Institute of Advanced Research, Gandhinagar) —
 
 <br/>
 
+---
+
+<br/>
+
+## `/stats`
+
+<div align="center">
+  <a href="https://github.com/notUbaid"><img src="https://github-readme-streak-stats.herokuapp.com?user=notUbaid&hide_border=true&background=0D1117&ring=238636&fire=3FB950&currStreakLabel=7EE787&sideLabels=C9D1D9&currStreakNum=E6EDF3&sideNums=E6EDF3&dates=8B949E&stroke=30363D" alt="Streak Stats" height="180"/></a>
+</div>
+
+
+
+<br/>
+
+---
+
+<br/>
+
+## `/3d`
+
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./dist/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./dist/github-contribution-grid-snake.svg">
-    <img alt="Contribution Telemetry Snake" src="./dist/github-contribution-grid-snake-dark.svg" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-green.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-green-animate.svg">
+    <img alt="3D Contribution Graph" src="./profile-3d-contrib/profile-night-green.svg" width="100%">
   </picture>
 </div>
 
 <br/>
 
-<details>
-  <summary><code>// EXPAND_SYSTEM_TELEMETRY (3D_CONTRIB &amp; METRICS)</code></summary>
-  <br/>
-  <div align="center">
-    <img src="./profile-3d-contrib/profile-night-view.svg" alt="3D Contribution Graph" width="49%"/>
-    <img src="./github-metrics.svg" alt="Repository Metrics" width="49%"/>
-  </div>
-</details>
+---
+
+<br/>
+
+## `/activity`
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="dist/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="dist/github-contribution-grid-snake.svg">
+    <img alt="Contribution snake animation" src="dist/github-contribution-grid-snake-dark.svg" width="100%">
+  </picture>
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="github-metrics.svg" alt="Metrics" width="100%">
+</div>
 
 <br/>
 
 ---
 
 <div align="center">
-  <code>[ <a href="./resume.pdf">OPERATIONAL_RESUME.pdf</a> ]</code> &nbsp;·&nbsp;
-  <code>[ <a href="https://github.com/notUbaid">GITHUB://notUbaid</a> ]</code> &nbsp;·&nbsp;
-  <code>[ <a href="https://linkedin.com/in/notubaid">LINKEDIN://in/notubaid</a> ]</code> &nbsp;·&nbsp;
-  <code>[ <a href="https://linktr.ee/csgc">DISPATCH://csgc</a> ]</code>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:238636,100:1f6feb&height=120&section=footer" alt="Footer"/>
 </div>
