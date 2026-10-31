@@ -1,0 +1,12 @@
+[
+  {
+    "type": "rainbow",
+    "fileName": "profile-3d-contrib/profile-night-view.svg",
+    "backgroundColor": "#0A0808",
+    "foregroundColor": "#FAF9F6",
+    "strongColor": "#B81D33",
+    "weakColor": "#78726D",
+    "radarColor": "#9E1B32",
+    "growingAnimation": true
+  }
+]

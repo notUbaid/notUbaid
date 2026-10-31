@@ -1,185 +1,101 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="610" viewBox="0 0 1180 610">
-<defs>
-  <linearGradient id="asciiGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-    <stop offset="0%" stop-color="#06B6D4">
-      <animate attributeName="stop-color" values="#06B6D4;#3B82F6;#0284C7;#06B6D4" dur="9s" repeatCount="indefinite"/>
-    </stop>
-    <stop offset="100%" stop-color="#3B82F6">
-      <animate attributeName="stop-color" values="#3B82F6;#0284C7;#06B6D4;#3B82F6" dur="9s" repeatCount="indefinite"/>
-    </stop>
-  </linearGradient>
-  <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-    <stop offset="0%" stop-color="#3B82F6"/>
-    <stop offset="50%" stop-color="#06B6D4"/>
-    <stop offset="100%" stop-color="#059669"/>
-  </linearGradient>
-  <radialGradient id="bgGlow" cx="30%" cy="20%" r="80%">
-    <stop offset="0%" stop-color="#FFFFFF"/>
-    <stop offset="100%" stop-color="#F8FAFC"/>
-  </radialGradient>
-  <linearGradient id="scanGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-  <stop offset="0%" stop-color="#06B6D4" stop-opacity="0"/>
-  <stop offset="45%" stop-color="#06B6D4" stop-opacity="0.05"/>
-  <stop offset="50%" stop-color="#A5F3FC" stop-opacity="0.65"/>
-  <stop offset="55%" stop-color="#06B6D4" stop-opacity="0.05"/>
-  <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
-</linearGradient>
-  <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
-  <rect width="4" height="1" fill="#7DD3FC" opacity="0.05"/>
-</pattern>
-  <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
-  <feGaussianBlur stdDeviation="4" result="blur"/>
-  <feMerge>
-    <feMergeNode in="blur"/>
-    <feMergeNode in="SourceGraphic"/>
-  </feMerge>
-</filter>
-  <mask id="revealMask" maskUnits="userSpaceOnUse" x="0" y="0" width="1180" height="620">
-  <rect x="0" y="0" width="1180" height="0" fill="#fff">
-    <animate attributeName="height" from="0" to="560" dur="2.6s" begin="0.2s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
-  </rect>
-</mask>
-<clipPath id="lc0"><rect x="500" y="26" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="0.75s" fill="freeze"/></rect></clipPath><clipPath id="lc1"><rect x="500" y="48" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="0.86s" fill="freeze"/></rect></clipPath><clipPath id="lc2"><rect x="500" y="70" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="0.97s" fill="freeze"/></rect></clipPath><clipPath id="lc3"><rect x="500" y="92" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="1.08s" fill="freeze"/></rect></clipPath><clipPath id="lc4"><rect x="500" y="114" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="1.19s" fill="freeze"/></rect></clipPath><clipPath id="lc5"><rect x="500" y="136" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="1.30s" fill="freeze"/></rect></clipPath><clipPath id="lc6"><rect x="500" y="158" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="1.41s" fill="freeze"/></rect></clipPath><clipPath id="lc7"><rect x="500" y="180" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="1.52s" fill="freeze"/></rect></clipPath><clipPath id="lc8"><rect x="500" y="202" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="1.63s" fill="freeze"/></rect></clipPath><clipPath id="lc9"><rect x="500" y="224" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="1.74s" fill="freeze"/></rect></clipPath><clipPath id="lc10"><rect x="500" y="246" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="1.85s" fill="freeze"/></rect></clipPath><clipPath id="lc11"><rect x="500" y="268" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="1.96s" fill="freeze"/></rect></clipPath><clipPath id="lc12"><rect x="500" y="290" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="2.07s" fill="freeze"/></rect></clipPath><clipPath id="lc13"><rect x="500" y="312" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="2.18s" fill="freeze"/></rect></clipPath><clipPath id="lc14"><rect x="500" y="334" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="2.29s" fill="freeze"/></rect></clipPath><clipPath id="lc15"><rect x="500" y="356" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="2.40s" fill="freeze"/></rect></clipPath><clipPath id="lc16"><rect x="500" y="378" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="2.51s" fill="freeze"/></rect></clipPath><clipPath id="lc17"><rect x="500" y="400" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="2.62s" fill="freeze"/></rect></clipPath><clipPath id="lc18"><rect x="500" y="422" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="2.73s" fill="freeze"/></rect></clipPath><clipPath id="lc19"><rect x="500" y="444" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="2.84s" fill="freeze"/></rect></clipPath><clipPath id="lc20"><rect x="500" y="466" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="2.95s" fill="freeze"/></rect></clipPath><clipPath id="lc21"><rect x="500" y="488" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="3.06s" fill="freeze"/></rect></clipPath><clipPath id="lc22"><rect x="500" y="510" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="3.17s" fill="freeze"/></rect></clipPath><clipPath id="lc23"><rect x="500" y="532" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="3.28s" fill="freeze"/></rect></clipPath><clipPath id="lc24"><rect x="500" y="554" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="3.39s" fill="freeze"/></rect></clipPath>
-  <style>
-    .ascii  { font-family: 'Courier New', Consolas, monospace; font-size: 7.4px; fill: url(#asciiGrad); letter-spacing: -0.2px; }
-    .key    { font-family: 'Courier New', Consolas, monospace; font-size: 15px; fill: #0284C7; font-weight: bold; }
-    .value  { font-family: 'Courier New', Consolas, monospace; font-size: 15px; fill: #1E293B; }
-    .cc     { font-family: 'Courier New', Consolas, monospace; font-size: 15px; fill: #94A3B8; }
-    .head   { font-family: 'Courier New', Consolas, monospace; font-size: 17px; fill: #4338CA; font-weight: bold; }
-    .accent { font-family: 'Courier New', Consolas, monospace; font-size: 15px; fill: #059669; font-weight: bold; }
-    text, tspan { white-space: pre; }
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="320" viewBox="0 0 1180 320" fill="none">
+  <defs>
+    <style>
+      .meta-mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 11px; fill: #5A5550; letter-spacing: 0.08em; }
+      .meta-accent { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 11px; fill: #7B1113; font-weight: 700; letter-spacing: 0.08em; }
+      .title-main { font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', system-ui, sans-serif; font-size: 42px; font-weight: 900; fill: #111111; letter-spacing: -0.035em; }
+      .alias-mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 12px; font-weight: 700; fill: #7B1113; letter-spacing: 0.14em; }
+      .desc-line { font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', system-ui, sans-serif; font-size: 13.5px; font-weight: 700; fill: #111111; letter-spacing: 0.05em; }
+      .desc-sub { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 11px; fill: #5A5550; letter-spacing: 0.03em; }
+      .panel-header { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 11px; font-weight: 700; fill: #7B1113; letter-spacing: 0.14em; }
+      .data-key { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 11.5px; fill: #5A5550; letter-spacing: 0.05em; }
+      .data-val { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 11.5px; fill: #111111; font-weight: 600; letter-spacing: 0.04em; }
+      .data-val-accent { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 11.5px; fill: #7B1113; font-weight: 700; letter-spacing: 0.04em; }
+      .footer-mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 10.5px; fill: #5A5550; letter-spacing: 0.06em; }
+      
+      @keyframes pulseLight {
+        0%, 100% { opacity: 1; transform: scale(1); }
+        50% { opacity: 0.35; transform: scale(0.85); }
+      }
+      .pulse-dot { animation: pulseLight 2.4s ease-in-out infinite; transform-origin: 1098px 108px; }
+    </style>
+    <pattern id="grid-pattern-light" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#E2DDD5" stroke-width="0.75" stroke-opacity="0.8"/>
+    </pattern>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1180" height="320" fill="#FAF9F6"/>
+  <rect x="12" y="12" width="1156" height="296" fill="url(#grid-pattern-light)"/>
+
+  <!-- Outer Structural Hairline Border -->
+  <rect x="12" y="12" width="1156" height="296" fill="none" stroke="#E2DDD5" stroke-width="1"/>
+
+  <!-- Corner Registration Marks -->
+  <path d="M 6 12 H 18 M 12 6 V 18" stroke="#7B1113" stroke-width="1.2"/>
+  <path d="M 1162 12 H 1174 M 1168 6 V 18" stroke="#7B1113" stroke-width="1.2"/>
+  <path d="M 6 308 H 18 M 12 302 V 314" stroke="#7B1113" stroke-width="1.2"/>
+  <path d="M 1162 308 H 1174 M 1168 302 V 314" stroke="#7B1113" stroke-width="1.2"/>
+
+  <!-- Header Divider -->
+  <line x1="12" y1="48" x2="1168" y2="48" stroke="#E2DDD5" stroke-width="1"/>
+  
+  <!-- Header Telemetry Row -->
+  <text x="32" y="33" class="meta-mono">SYS_ID: <tspan fill="#111111">UNK-8902</tspan> // ARCH_CLASS: <tspan fill="#111111">STAFF_SYSTEMS</tspan></text>
+  <text x="440" y="33" class="meta-mono">COORD: <tspan fill="#111111">23.0225° N, 72.5714° E</tspan> // AMD-GN</text>
+  <text x="948" y="33" class="meta-accent">TELEMETRY: LIVE // FRAME: &lt;6.94ms</text>
+
+  <!-- Header / Body Intersection Registration Mark -->
+  <path d="M 724 48 H 736 M 730 42 V 54" stroke="#7B1113" stroke-width="1"/>
+
+  <!-- Vertical Column Divider -->
+  <line x1="730" y1="48" x2="730" y2="274" stroke="#E2DDD5" stroke-width="1"/>
+
+  <!-- Left Content Panel -->
+  <g transform="translate(36, 76)">
+    <text x="0" y="14" class="meta-mono">// OPERATIONAL IDENTITY</text>
+    <text x="0" y="58" class="title-main">UBAID NAEEM KHAN</text>
+    <text x="0" y="86" class="alias-mono">[notUbaid] :: SYSTEMS &amp; HIGH-DENSITY INTERFACES</text>
     
-    .term-label { font-family: 'Courier New', Consolas, monospace; font-size: 12px; fill: #64748B; letter-spacing: 0.5px; }
-    .scan-label { font-family: 'Courier New', Consolas, monospace; font-size: 10px; fill: #F87171; letter-spacing: 1px; }
-    .panel-title { font-family: 'Courier New', Consolas, monospace; font-size: 11px; fill: #0284C7; letter-spacing: 2px; opacity: 0.7; }
-    .cursor-blink { fill: #0284C7; }
-  </style>
-</defs>
+    <line x1="0" y1="106" x2="660" y2="106" stroke="#E2DDD5" stroke-width="1"/>
 
-<rect width="1180" height="610" rx="18" fill="url(#bgGlow)"/>
-<rect width="1180" height="610" rx="18" fill="url(#scanlines)"/>
-
-<g id="titlebar">
-  <rect x="3" y="3" width="1174" height="34" rx="16" fill="#FFFFFF" fill-opacity="0.85"/>
-  <circle cx="24" cy="20" r="5" fill="#EF4444"><animate attributeName="opacity" values="1;0.55;1" dur="4s" repeatCount="indefinite"/></circle>
-  <circle cx="42" cy="20" r="5" fill="#F59E0B"><animate attributeName="opacity" values="1;0.55;1" dur="4s" begin="0.3s" repeatCount="indefinite"/></circle>
-  <circle cx="60" cy="20" r="5" fill="#10B981"><animate attributeName="opacity" values="1;0.55;1" dur="4s" begin="0.6s" repeatCount="indefinite"/></circle>
-  <text x="590" y="25" text-anchor="middle" class="term-label">notUbaid@ship ~ % ./profile.sh --live</text>
-  <circle cx="1060" cy="20" r="4" fill="#F87171">
-    <animate attributeName="opacity" values="1;0.15;1" dur="1.1s" repeatCount="indefinite"/>
-  </circle>
-  <text x="1070" y="24" class="scan-label">SCANNING</text>
-</g>
-
-<g transform="translate(0,38)">
-  <rect x="14" y="26" width="488" height="518" rx="14" fill="#FFFFFF" fill-opacity="0.35" stroke="url(#borderGrad)" stroke-width="1" opacity="0.35"/>
-  <rect x="508" y="10" width="655" height="534" rx="14" fill="#FFFFFF" fill-opacity="0.35" stroke="url(#borderGrad)" stroke-width="1" opacity="0.35"/>
-  <text x="30" y="24" class="panel-title">VISUAL.MAP</text>
-  <text x="524" y="24" class="panel-title">SYSTEM.INFO</text>
-
-  <g mask="url(#revealMask)">
-  <text x="30" y="0" class="ascii">
-<tspan x="38" y="35.00" xml:space="preserve"> </tspan>
-<tspan x="38" y="42.55" xml:space="preserve"> </tspan>
-<tspan x="38" y="50.10" xml:space="preserve"> </tspan>
-<tspan x="38" y="57.65" xml:space="preserve"> </tspan>
-<tspan x="38" y="65.20" xml:space="preserve"> </tspan>
-<tspan x="38" y="72.75" xml:space="preserve"> </tspan>
-<tspan x="38" y="80.30" xml:space="preserve"> </tspan>
-<tspan x="38" y="87.85" xml:space="preserve"> </tspan>
-<tspan x="38" y="95.40" xml:space="preserve">                                  ;==$##$$$#</tspan>
-<tspan x="38" y="102.95" xml:space="preserve">                             ;!!##$@@@$#$$%##%$%#*</tspan>
-<tspan x="38" y="110.50" xml:space="preserve">                          *=~#@@%@%%%$#####$#$@@%%$</tspan>
-<tspan x="38" y="118.05" xml:space="preserve">                         ;##%@@@@@@@@@%$%$#%$#*$%#$$</tspan>
-<tspan x="38" y="125.60" xml:space="preserve">                         %$$$%%%%@@@@@@@@$%@%%%%%$#%*</tspan>
-<tspan x="38" y="133.15" xml:space="preserve">                         !#$%@$@@*;=*%@@@@@@@@@%@@%%</tspan>
-<tspan x="38" y="140.70" xml:space="preserve">                            $%::~     ,;=;;!$%@@@@%#</tspan>
-<tspan x="38" y="148.25" xml:space="preserve">                             #-,.           ,~*$$$%</tspan>
-<tspan x="38" y="155.80" xml:space="preserve">                             :.              .-;*#$</tspan>
-<tspan x="38" y="163.35" xml:space="preserve">                             ~!#$!;, -*$%$##:.  =$:.,</tspan>
-<tspan x="38" y="170.90" xml:space="preserve">                            #!@@@@@%-%@@@@@@@:, -!~,,</tspan>
-<tspan x="38" y="178.45" xml:space="preserve">                             !%@@@@=  %@#%$!=.  -#~-.</tspan>
-<tspan x="38" y="186.00" xml:space="preserve">                             ~-=!;:    ~:-~:~  ,#$,</tspan>
-<tspan x="38" y="193.55" xml:space="preserve">                              .  -,,  ...,   ,~=$*</tspan>
-<tspan x="38" y="201.10" xml:space="preserve">                              #~=**%##$*:;#:.;!*%~</tspan>
-<tspan x="38" y="208.65" xml:space="preserve">                               *!!  ,,    =~:*$%=-</tspan>
-<tspan x="38" y="216.20" xml:space="preserve">                                !@%=:-~;;=#$@@%;-~</tspan>
-<tspan x="38" y="223.75" xml:space="preserve">                                  #@@@@@%%@@%=--;,</tspan>
-<tspan x="38" y="231.30" xml:space="preserve">                                   ;*$%%%$!;---~;</tspan>
-<tspan x="38" y="238.85" xml:space="preserve">                                   ~;~~:::~~~~;!</tspan>
-<tspan x="38" y="246.40" xml:space="preserve">                                    $*!======!!</tspan>
-<tspan x="38" y="253.95" xml:space="preserve">                                    .#!!!===*!</tspan>
-<tspan x="38" y="261.50" xml:space="preserve">                                     ,====;=#</tspan>
-<tspan x="38" y="269.05" xml:space="preserve">                                       ~;:;=#</tspan>
-<tspan x="38" y="276.60" xml:space="preserve">                                         . .:~</tspan>
-<tspan x="38" y="284.15" xml:space="preserve"> </tspan>
-<tspan x="38" y="291.70" xml:space="preserve"> </tspan>
-<tspan x="38" y="299.25" xml:space="preserve"> </tspan>
-<tspan x="38" y="306.80" xml:space="preserve"> </tspan>
-<tspan x="38" y="314.35" xml:space="preserve">                                                               ,</tspan>
-<tspan x="38" y="321.90" xml:space="preserve">                                           ,-*.                 :</tspan>
-<tspan x="38" y="329.45" xml:space="preserve">                                    =:*#$%@@@@~             .   :~           ,--,</tspan>
-<tspan x="38" y="337.00" xml:space="preserve">                                   .@@@@@@@$$@              ,   -;     ,-,...,,-~</tspan>
-<tspan x="38" y="344.55" xml:space="preserve">                                  .$@@@#; !@@*              ~..-:;~:~--.  ...,,-~</tspan>
-<tspan x="38" y="352.10" xml:space="preserve">                          .=-     .   .-~~;=;-             ~=~~~-,,.      . ...--</tspan>
-<tspan x="38" y="359.65" xml:space="preserve">                           =@~ .-~:,-;!=-  -!-             ~~,,.          .   ,---</tspan>
-<tspan x="38" y="367.20" xml:space="preserve">                          -$$=;~-~;!=-,~;!=:-           ,-,.       .........,-~:~~</tspan>
-<tspan x="38" y="374.75" xml:space="preserve">                          ,*;=!;  ---~::-:-        ,,,,         ..,,,,,,--::;;==;</tspan>
-<tspan x="38" y="382.30" xml:space="preserve">                         -:~;!!*!;.  .-:;~~   ::,.        ..,-------~:=**#$$%@@%</tspan>
-<tspan x="38" y="389.85" xml:space="preserve">                 ,,,,  ~;===!!!===:~--::- ..#!#    ..--~~~~~:~~::=#%@@@@@@@@@@@@</tspan>
-<tspan x="38" y="397.40" xml:space="preserve">             $#*!==;==!*****!!*!=;;;:~-     :%%; .,.,,---~:;=!$@@@@%$$$$$$$$$#%@@</tspan>
-<tspan x="38" y="404.95" xml:space="preserve">             *!!!!*****####*!=;;=!==;~-,,-, .%%%-,-~;=*#$%@@@@@@%$$$$#######$$#%@@</tspan>
-<tspan x="38" y="412.50" xml:space="preserve">             $$$#########**!=!*@@%#*;:-,,-=*%@%@@@@@@@@@@@@@@@%$$$$$$$$##$$#$$$$$##</tspan>
-<tspan x="38" y="420.05" xml:space="preserve">              @@%%$$$$$$####@@@@$!;~-,.,.#@@@@@@@@@@@@@@@@@@@%%$$%%$$$$$$$$$%%%%@@@</tspan>
-<tspan x="38" y="427.60" xml:space="preserve">              %@%%%%%%%%%@@@@%$!~,  .,,-$@@@@@@@@@@@@@@@@@@@@#$@%@%%%%%%%%%%%%%%@@@</tspan>
-<tspan x="38" y="435.15" xml:space="preserve">                @@@@@@@@@@@%=~-   :::~~@@@@@@@@@@@@@@@@@@@@@@%@@@@@@@@%@@%%%%%%%%%@@</tspan>
-<tspan x="38" y="442.70" xml:space="preserve">                 @@@@@@@@=   .  :@@$~-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@</tspan>
-<tspan x="38" y="450.25" xml:space="preserve">                @@@@@@#,    .  #@@@:.;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@</tspan>
-<tspan x="38" y="457.80" xml:space="preserve">                %%@$;.     -; :@@@@#;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%</tspan>
-<tspan x="38" y="465.35" xml:space="preserve">               @@@@;   -  ,@: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
-<tspan x="38" y="472.90" xml:space="preserve">              @@@@*  -;  *@@ ~@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
-<tspan x="38" y="480.45" xml:space="preserve">              @@%@%*@%.~@@%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%</tspan>
-<tspan x="38" y="488.00" xml:space="preserve">             @@%%%%%%%@@%$$$@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
-<tspan x="38" y="495.55" xml:space="preserve">             @%%%$$$$$$$$$$$$%%%%%@@@@@@@@@@@     @@@@@@@@@@   @@@@@@@@@@@@@@@</tspan>
-<tspan x="38" y="503.10" xml:space="preserve">              @%%%%%$$%%%%$$%%%%%%@@@@@@@@@@                   @@@@@@@@@@@@@@@</tspan>
-<tspan x="38" y="510.65" xml:space="preserve">              @@%%%%%%%%%%%%%%@@@@@@@@@@@@@@                   @@@@@@@@@@@@@%</tspan>
-<tspan x="38" y="518.20" xml:space="preserve">              @@@@%%%%%%%%%%%@@@@@@@@@@@@@@@                   @@@@@@@@@@@@@</tspan>
-
-  </text>
+    <text x="0" y="132" class="desc-line">SYSTEMS, HIGH-DENSITY INTERFACES &amp; OPERATIONAL TOOLING</text>
+    <text x="0" y="156" class="desc-sub">Reverse-Engineered transit network // Offline-first crowd engine // Sub-frame UI latency</text>
+    <text x="0" y="176" class="desc-sub">Deterministic finance workbenches // RL chaos triage environments</text>
   </g>
 
-  <g clip-path="url(#lc0)"><text x="520" y="0"><tspan x="520" y="42" class="head">notUbaid@ship</tspan><tspan class="cc"> -——————————————————————————————————————————-—-</tspan></text></g>
-<g clip-path="url(#lc1)"><text x="520" y="0"><tspan x="520" y="66" class="cc">. </tspan><tspan class="key">Subject</tspan><tspan class="cc">: ..................... </tspan><tspan class="value">Ubaid Khan</tspan></text></g>
-<g clip-path="url(#lc2)"><text x="520" y="0"><tspan x="520" y="88" class="cc">. </tspan><tspan class="key">Role</tspan><tspan class="cc">: ........................ </tspan><tspan class="value">Full-Stack Engineer / AI Developer</tspan></text></g>
-<g clip-path="url(#lc3)"><text x="520" y="0"><tspan x="520" y="110" class="cc">. </tspan><tspan class="key">Origin</tspan><tspan class="cc">: ...................... </tspan><tspan class="value">Ahmedabad, India</tspan></text></g>
-<g clip-path="url(#lc4)"><text x="520" y="0"><tspan x="520" y="132" class="cc">. </tspan><tspan class="key">Education</tspan><tspan class="cc">: ................... </tspan><tspan class="value">Institute of Advanced Research (IAR)</tspan></text></g>
-<g clip-path="url(#lc5)"><text x="520" y="0"><tspan x="520" y="154" class="cc">. </tspan><tspan class="key">Status</tspan><tspan class="cc">: ...................... </tspan><tspan class="value">Building • Learning • Shipping</tspan></text></g>
-<g clip-path="url(#lc6)"><text x="520" y="0"><tspan x="520" y="176" class="cc">. </tspan><tspan class="key">ToolChain</tspan><tspan class="cc">: ................... </tspan><tspan class="value">Git, Docker, Antigravity</tspan></text></g>
-<g clip-path="url(#lc7)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="198" class="cc">. </tspan></text></g>
-<g clip-path="url(#lc8)"><text x="520" y="0"><tspan x="520" y="220" class="cc">. </tspan><tspan class="key">Projects</tspan><tspan class="cc">: .................... </tspan><tspan class="value">AhmMetro, Kontxt</tspan></text></g>
-<g clip-path="url(#lc9)"><text x="520" y="0"><tspan x="520" y="242" class="cc">. </tspan><tspan class="key">Hackathons</tspan><tspan class="cc">: .................. </tspan><tspan class="value">2x Finalist</tspan></text></g>
-<g clip-path="url(#lc10)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="264" class="cc">. </tspan></text></g>
-<g clip-path="url(#lc11)"><text x="520" y="0"><tspan x="520" y="286" class="cc">. </tspan><tspan class="key">Core.Lang</tspan><tspan class="cc">: ................... </tspan><tspan class="value">TypeScript, Python, JavaScript</tspan></text></g>
-<g clip-path="url(#lc12)"><text x="520" y="0"><tspan x="520" y="308" class="cc">. </tspan><tspan class="key">Core.Frontend</tspan><tspan class="cc">: ............... </tspan><tspan class="value">React, Next.js, Tailwind, HTML</tspan></text></g>
-<g clip-path="url(#lc13)"><text x="520" y="0"><tspan x="520" y="330" class="cc">. </tspan><tspan class="key">Core.Backend</tspan><tspan class="cc">: ................ </tspan><tspan class="value">Node.js, Express, FastAPI</tspan></text></g>
-<g clip-path="url(#lc14)"><text x="520" y="0"><tspan x="520" y="352" class="cc">. </tspan><tspan class="key">Core.Database</tspan><tspan class="cc">: ............... </tspan><tspan class="value">Postgres, MongoDB, Supabase</tspan></text></g>
-<g clip-path="url(#lc15)"><text x="520" y="0"><tspan x="520" y="374" class="cc">. </tspan><tspan class="key">Core.Infra</tspan><tspan class="cc">: .................. </tspan><tspan class="value">Docker, Vercel, Render</tspan></text></g>
-<g clip-path="url(#lc16)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="396" class="cc">. </tspan></text></g>
-<g clip-path="url(#lc20)"><text x="520" y="0"><tspan x="520" y="506" class="accent">- Contact</tspan><tspan class="cc"> -————————————————————————————————————————————-—-</tspan></text></g>
-<g clip-path="url(#lc18)"><text x="520" y="0"><tspan x="520" y="440" class="cc">. </tspan><tspan class="key">Grid.Mail</tspan><tspan class="cc">: ................... </tspan><tspan class="value">me.khanubaid@gmail.com</tspan></text></g>
-<g clip-path="url(#lc19)"><text x="520" y="0"><tspan x="520" y="462" class="cc">. </tspan><tspan class="key">Grid.LinkedIn</tspan><tspan class="cc">: ............... </tspan><tspan class="value">linkedin.com/in/notubaid</tspan></text></g>
-<g clip-path="url(#lc20)"><text x="520" y="0"><tspan x="520" y="484" class="cc">. </tspan><tspan class="key">Grid.Github</tspan><tspan class="cc">: ................. </tspan><tspan class="value">github.com/notUbaid</tspan></text></g>
+  <!-- Right Telemetry Panel Background -->
+  <rect x="731" y="49" width="436" height="224" fill="#F7F5F0"/>
 
-  <rect x="522" y="565" width="9" height="16" class="cursor-blink" opacity="0">
-    <animate attributeName="opacity" values="0;0;1;0;1;0;1;0" keyTimes="0;0.01;0.02;0.3;0.5;0.7;0.85;1" dur="1.4s" begin="3.66s" repeatCount="indefinite"/>
-  </rect>
-</g>
+  <!-- Right Telemetry Panel Content -->
+  <g transform="translate(756, 74)">
+    <text x="0" y="14" class="panel-header">// SYSTEM TELEMETRY &amp; SPECS</text>
+    <line x1="0" y1="26" x2="384" y2="26" stroke="#E2DDD5" stroke-width="1"/>
 
-<rect x="0" y="-70" width="1180" height="70" fill="url(#scanGrad)" opacity="0.7" style="mix-blend-mode:screen">
-  <animateTransform attributeName="transform" type="translate" from="0 -70" to="0 680" dur="4.2s" repeatCount="indefinite"/>
-</rect>
+    <text x="0" y="48" class="data-key">STATUS:</text>
+    <text x="140" y="48" class="data-val-accent">SHIPPING [CANARY]</text>
+    <circle cx="342" cy="44" r="3.5" fill="#7B1113" class="pulse-dot"/>
 
-<rect x="3" y="3" width="1174" height="604" rx="16" fill="none" stroke="url(#borderGrad)" stroke-width="2" opacity="0.8">
-  <animate attributeName="opacity" values="0.5;0.95;0.5" dur="3.2s" repeatCount="indefinite"/>
-</rect>
+    <text x="0" y="74" class="data-key">TRANSIT_GRAPH:</text>
+    <text x="140" y="74" class="data-val">54 NODES // DIJKSTRA O(V+E)</text>
+
+    <text x="0" y="100" class="data-key">ARCHITECTURE:</text>
+    <text x="140" y="100" class="data-val">OFFLINE_FIRST // STRICT_DOM</text>
+
+    <text x="0" y="126" class="data-key">RL_BENCHMARK:</text>
+    <text x="140" y="126" class="data-val">17-SVC CASCADE DAG</text>
+
+    <text x="0" y="152" class="data-key">UI_LATENCY:</text>
+    <text x="140" y="152" class="data-val">&lt;16ms TARGET [SUB-FRAME]</text>
+
+    <text x="0" y="178" class="data-key">RUNTIME_ENV:</text>
+    <text x="140" y="178" class="data-val">BARE_METAL + CLOUD_EDGE</text>
+  </g>
+
+  <!-- Footer Divider -->
+  <line x1="12" y1="274" x2="1168" y2="274" stroke="#E2DDD5" stroke-width="1"/>
+
+  <!-- Footer Status Row -->
+  <text x="32" y="295" class="footer-mono">PROTOCOL: <tspan fill="#111111">DETERMINISTIC</tspan> // ANTI_SLOP: <tspan fill="#111111">ENFORCED</tspan> // AUDIT: <tspan fill="#111111">FIELD_RECEIPTS_GROUNDED</tspan></text>
+  <text x="912" y="295" class="footer-mono">CLASSIFICATION: <tspan fill="#7B1113">PUBLIC_FIELD_LOG</tspan></text>
 </svg>

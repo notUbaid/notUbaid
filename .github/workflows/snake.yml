@@ -20,8 +20,8 @@ jobs:
         with:
           github_user_name: notUbaid
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.svg?color_snake=#7B1113&color_dots=#E2DDD5,#E5989B,#C41E3A,#9E1B32,#4A0A10
+            dist/github-contribution-grid-snake-dark.svg?color_snake=#B81D33&color_dots=#261C1E,#4A0A10,#7B1113,#9E1B32,#C41E3A
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
